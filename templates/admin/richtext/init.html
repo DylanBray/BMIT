@@ -1,0 +1,4 @@
+{% extends "admin/content/richtext/init_tinymce.html" %}
+
+{% block buttons1 %}{{ block.super }},|,media,|,insertdate{% endblock %}
+{% block plugins %}{{ block.super }},medialibrarylink,media,insertdatetime{% endblock %}

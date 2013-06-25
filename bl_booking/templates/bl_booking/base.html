@@ -1,0 +1,104 @@
+{% for i in list_bookings %}
+{{ i.date }}
+{% endfor %}
+{{ week }}
+
+<div id="bl-main-wrapper" class="beamline-schedule">
+<iframe src="https://www.google.com/calendar/embed?src=84bc8ic9h5skg7d6h5va7f6l70muda6l%40import.calendar.google.com&ctz=America/Regina" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  {% autoescape off %}
+  {{ table }}
+  {% endautoescape %}
+
+  <div id="calendar" class="beamline-schedule">
+  </div>
+</div>
+<script type="text/javascript">
+var d = new Date();
+var calendar = document.getElementById("calendar");
+
+
+var monthString = ['January',
+		   'February',
+		   'March',
+		   'April',
+		   'May',
+		   'June',
+		   'July',
+		   'August',
+		   'September',
+		   'October',
+		   'November',
+		   'December'
+		  ];
+
+function getFirstDay(year, month){
+  
+    return new Date(year, month, 1).getDay();
+}
+
+/*
+ * returns number of days in month
+ */
+function getNumDays(year, month){
+    return new Date(year, month + 1, 0).getDate();
+}
+
+function getLastDay(year, month){
+    return new Date(year, month, getNumDays(year, month)).getDay();
+} 
+
+function nextMonth(){
+    d.setMonth(d.getMonth() + 1);
+    drawCalendar(d);
+}
+
+function prevMonth(){
+    d.setMonth(d.getMonth() - 1);
+    drawCalendar(d);
+}
+ 
+function drawCalendar(date){
+    var currentMonth = date.getMonth();
+    if(currentMonth < 9)
+       var drawMonth = '0' + (currentMonth + 1);
+    else
+       var drawMonth = (currentMonth + 1);
+    var currentYear = date.getFullYear();
+    var currentDay = date.getDate();
+    var firstDayMonth = getFirstDay(currentYear, currentMonth);
+    var lastDayMonth = getNumDays(currentYear, currentMonth);
+    var lastDayNum = getLastDay(currentYear, currentMonth);
+    
+    var calendarString = '<table><caption><input id="prevMonth" type="button" value="<" name="prevMonth" onclick="prevMonth()">' 
+		       + monthString[currentMonth] + ' ' + currentYear +
+		       '<input id="nextMonth" type="button" value=">" name="nextMonth" onclick="nextMonth()"></caption><thead>'+
+	'<tr><th>Su</th><th>M</th><th>T</th><th>W</th><th>Th</th><th>F</th><th>Sa</th></tr></thead><tr>';
+
+    for(var i = 0; i < firstDayMonth; i++){
+	calendarString += '<td></td>';
+    }
+
+
+    for(var i = firstDayMonth + 1; i <=   lastDayMonth + firstDayMonth; i++){
+	var day = i - firstDayMonth;
+        if(day < 10)
+           linkDay = '0' + day;
+        else
+           linkDay = day;
+        var pathArray = '{{ request.path }}'.split('/');
+	calendarString += '<td><a href="/'+pathArray[1]+'/'+currentYear+'-'+drawMonth+'-'+linkDay+'">'+day+'</td>';
+	if(i % 7 == 0)
+	    calendarString += '</tr><tr>';
+    }
+
+    for(var i = 0; i < 6 - lastDayNum; i++){
+	calendarString += '<td></td>';
+    }
+
+    calendarString += '</tr></table>';
+    calendar.innerHTML = calendarString;
+}
+    
+drawCalendar(d); 
+</script>
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}bl_booking/base.css">

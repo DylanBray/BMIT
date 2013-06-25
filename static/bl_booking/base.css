@@ -1,0 +1,38 @@
+#bl-main-wrapper {
+    margin: 22px 0px 22px;
+}
+
+
+#bl-main-wrapper.beamline-schedule{
+    float:left;
+    width: 900px;
+    margin 0px auto;
+}
+
+#calendar.beamline-schedule{
+    float:right;
+}
+
+#calendar.beamline-schedule table{
+    float:left;
+    width: 350px;
+}
+#calendar.beamline-schedule input#prevMonth{
+    float: left;
+}
+#calendar.beamline-schedule input#nextMonth{
+    float: right;
+}
+
+#bl-table{
+    width: 400px;
+    float: left;
+}
+
+#nextWeek{
+    float: right;
+}
+
+#prevWeek{
+    float: left;
+}
