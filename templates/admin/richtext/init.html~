@@ -1,4 +1,0 @@
-{% extends "admin/content/richtext/init_tinymce.html" %}
-
-
-{% block plugins %}{{ block.super }},medialibrarylink{% endblock %}

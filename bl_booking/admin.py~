@@ -1,5 +1,0 @@
-from django.contrib import admin
-from bl_booking.models import bl_booking
-
-admin.site.register(bl_booking)
-
