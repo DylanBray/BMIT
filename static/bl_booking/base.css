@@ -15,18 +15,23 @@
 
 #calendar.beamline-schedule table{
     float:left;
-    width: 350px;
+    width: 200px;
+    text-align: center;
+     border: 1px solid rgb(223,223,223);
 }
-#calendar.beamline-schedule input#prevMonth{
+#calendar.beamline-schedule a#prevMonth{
     float: left;
 }
-#calendar.beamline-schedule input#nextMonth{
+#calendar.beamline-schedule a#nextMonth{
     float: right;
 }
-
+#calendar.beamline-schedule a:hover{
+    cursor: pointer;
+}
 #bl-table{
     width: 400px;
     float: left;
+   
 }
 
 #nextWeek{
@@ -35,4 +40,45 @@
 
 #prevWeek{
     float: left;
+}
+table{
+    border-collapse: collapse;
+}
+
+
+#bl-table tr, #bl-table td{
+    border: 1px solid rgb(223,223,223);
+    text-align: center;
+}
+
+#bl-table td{
+    background-color: #F5F5F5;
+}
+#bl-table thead{
+    background-color: #E3E3E3;
+    text-align: center;
+}
+
+#bl-table .orange{
+    background-color: #FFB76A;
+}
+
+#bl-table .blue{
+    background-color: #B9CCFF;
+}
+
+#bl-table .yellow{
+    background-color: #FFFBAB;
+}
+
+#bl-table .purple{
+    background-color: #E6B7FF;
+}
+
+#bl-table .green{
+    background-color: #CCFFCD;
+}
+
+#bl-table .red{
+    background-color: #FFB0AE;
 }

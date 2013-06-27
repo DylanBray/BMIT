@@ -4,7 +4,6 @@
 {{ week }}
 
 <div id="bl-main-wrapper" class="beamline-schedule">
-<iframe src="https://www.google.com/calendar/embed?src=84bc8ic9h5skg7d6h5va7f6l70muda6l%40import.calendar.google.com&ctz=America/Regina" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
   {% autoescape off %}
   {{ table }}
   {% endautoescape %}
@@ -15,7 +14,8 @@
 <script type="text/javascript">
 var d = new Date();
 var calendar = document.getElementById("calendar");
-
+var leftarrowpath = {{ STATIC_URL }} + 'cms/img/leftarrow.png';
+var rightarrowpath = {{ STATIC_URL }} + 'cms/img/rightarrow.png';
 
 var monthString = ['January',
 		   'February',
@@ -69,9 +69,9 @@ function drawCalendar(date){
     var lastDayMonth = getNumDays(currentYear, currentMonth);
     var lastDayNum = getLastDay(currentYear, currentMonth);
     
-    var calendarString = '<table><caption><input id="prevMonth" type="button" value="<" name="prevMonth" onclick="prevMonth()">' 
+    var calendarString = '<table><caption><a id="prevMonth"  onclick="prevMonth()"><img alt="prev" src="'+ leftarrowpath +'"></a>' 
 		       + monthString[currentMonth] + ' ' + currentYear +
-		       '<input id="nextMonth" type="button" value=">" name="nextMonth" onclick="nextMonth()"></caption><thead>'+
+		       '<a id="nextMonth"  onclick="nextMonth()"><img alt="next"src="'+ rightarrowpath +'"></a></caption><thead>'+
 	'<tr><th>Su</th><th>M</th><th>T</th><th>W</th><th>Th</th><th>F</th><th>Sa</th></tr></thead><tr>';
 
     for(var i = 0; i < firstDayMonth; i++){

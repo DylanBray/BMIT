@@ -6,6 +6,8 @@ from bl_booking.models import contact
 import icalendar
 import urllib
 from icalendar import Calendar, Event
+from django.views.decorators.cache import cache_page
+
 
 # returns an HTML class definition used for colouring the schedule table for each event in the calendar
 # needed - throw exception when timeslot != 0, 8, or 16
@@ -22,10 +24,10 @@ def tdColour( events, weekday, timeSlot):
         return 'class="yellow"'
 
     def redCategory():
-        return 'class="red'
+        return 'class="red"'
 
     def blueCategory():
-        return 'clsss="blue"'
+        return 'class="blue"'
 
     def orangeCategory():
         return 'class="orange"'
@@ -35,6 +37,9 @@ def tdColour( events, weekday, timeSlot):
       
     def greenCategory():
         return 'class="green"'
+
+    def none():
+        return ''
 
     categories = { 'Yellow Category' : yellowCategory,
                    'Blue Category' :blueCategory,
@@ -47,14 +52,17 @@ def tdColour( events, weekday, timeSlot):
 
     for event in events:
         if (event['start'] <= datetime.combine(weekday,time(timeSlot)) and event['end'] >= datetime.combine(weekday + timedelta(days = dayincrement), time(endTime))):
-            return categories[event['category']]()
-            
+            try:
+                return categories[event['category']]()
+            except KeyError:
+                return ''
     return ''
     
     
 # return calendar info
 def ical(url):
-    ics = urllib.urlopen(url).read()
+    #ics = urllib.urlopen(url).read()
+    ics = open(url,'rb').read()
     events = []
 
     cal = Calendar.from_ical(ics)
@@ -92,12 +100,12 @@ def getWeek(currentDate):
 # returns the schedule table
 def buildTable(week):
    
-    bmEvents = ical("http://calendars.office.microsoft.com/pubcalstorage/x2lrxl7z4630721/Dylan_Bray_Calendar.ics")
+    bmEvents = ical("/webroot/bmit/static/calendar.ics")
     table =  '<table id="bl-table">'
     table += '<caption><a id="prevWeek" href="/schedule/' + (week[0] - timedelta(days = 7)).strftime("%Y-%m-%d") + '">'
-    table += '<img src="" alt="Previous" title="Previous Week">'
+    table += '<img src="/static/cms/img/leftarrow.png" alt="Previous" title="Previous Week">'
     table +='</a><a href="/schedule">Current Week</a><a id="nextWeek" href="/schedule/' + (week[0] + timedelta(days = 7)).strftime("%Y-%m-%d") + '">'
-    table += '<img src="" alt="Next" title="Next Week"></a></caption>'
+    table += '<img src="/static/cms/img/rightarrow.png" alt="Next" title="Next Week"></a></caption>'
     table += '<thead>'
     table += '<tr>'
     table += '<th>Date</th><th>shift</th><th>05B1-1</th><th>05ID-2</th><th>local contact</th>'
@@ -143,12 +151,13 @@ def buildTable(week):
       
     table += '</tbody></table>'
     return table
-    
+
+@cache_page(60 * 15)   
 def index(request):
     currentDate =  date.today()
     context = {'table': buildTable(getWeek(currentDate))}
     return render(request, 'bl_booking/base.html', context)
-
+@cache_page(60 * 15)
 def week(request, year, month, day):
     currentDate = getWeek(date(int(year), int(month), int(day)))
     context = {'table': buildTable(currentDate)}
