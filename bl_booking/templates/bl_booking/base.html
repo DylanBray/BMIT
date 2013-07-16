@@ -1,12 +1,26 @@
-{% for i in list_bookings %}
-{{ i.date }}
-{% endfor %}
-{{ week }}
+{% extends feincms_page.template.path|default:"base.html" %}
+  {% load feincms_page_tags %}
 
+{% block content %}
 <div id="bl-main-wrapper" class="beamline-schedule">
-  {% autoescape off %}
-  {{ table }}
-  {% endautoescape %}
+  <h3>{{ week.0 }} - {{ week.6 }}</h3>
+  <table id="bl-table">
+    <caption>
+      <a id="prevWeek" href="{% if feincms_page.parent %}{% feincms_parentlink of feincms_page level=1 %}{% else %}/{% endif %}{{ feincms_page.slug}}/{{ previousWeek | date:"Y-m-d"}}">
+	<img src="/static/cms/img/leftarrow.png" alt="Previous" title="Previous Week">
+      </a>
+      <a href="{% if feincms_page.parent %}{% feincms_parentlink of feincms_page level=1 %}{% else %}/{% endif %}{{ feincms_page.slug}}">Current Week</a><a id="nextWeek" href="{% if feincms_page.parent %}{% feincms_parentlink of feincms_page level=1 %}{% else %}/{% endif %}{{ feincms_page.slug}}/{{ nextWeek | date:"Y-m-d" }}">
+	<img src="/static/cms/img/rightarrow.png" alt="Next" title="Next Week">
+      </a>
+    </caption>
+    <thead>
+      <th>Date</th><th>shift</th><th>05B1-1</th><th>05ID-2</th><th>local contact</th>
+      
+    </thead>
+    {% autoescape off %}
+    {{ tableBody }}
+    {% endautoescape %}
+  </table>
 
   <div id="calendar" class="beamline-schedule">
   </div>
@@ -14,6 +28,7 @@
 <script type="text/javascript">
 var d = new Date();
 var calendar = document.getElementById("calendar");
+var path = '{% if feincms_page.parent %}{% feincms_parentlink of feincms_page level=1 %}{% else %}/{% endif %}{{ feincms_page.slug }}';
 var leftarrowpath = {{ STATIC_URL }} + 'cms/img/leftarrow.png';
 var rightarrowpath = {{ STATIC_URL }} + 'cms/img/rightarrow.png';
 
@@ -86,7 +101,7 @@ function drawCalendar(date){
         else
            linkDay = day;
         var pathArray = '{{ request.path }}'.split('/');
-	calendarString += '<td><a href="/'+pathArray[1]+'/'+currentYear+'-'+drawMonth+'-'+linkDay+'">'+day+'</td>';
+	calendarString += '<td><a href="'+path+'/'+currentYear+'-'+drawMonth+'-'+linkDay+'">'+day+'</td>';
 	if(i % 7 == 0)
 	    calendarString += '</tr><tr>';
     }
@@ -102,3 +117,5 @@ function drawCalendar(date){
 drawCalendar(d); 
 </script>
 <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}bl_booking/base.css">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}bl_booking/calendar.css">
+{% endblock %}

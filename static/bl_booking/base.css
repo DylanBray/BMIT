@@ -9,27 +9,9 @@
     margin 0px auto;
 }
 
-#calendar.beamline-schedule{
-    float:right;
-}
 
-#calendar.beamline-schedule table{
-    float:left;
-    width: 200px;
-    text-align: center;
-     border: 1px solid rgb(223,223,223);
-}
-#calendar.beamline-schedule a#prevMonth{
-    float: left;
-}
-#calendar.beamline-schedule a#nextMonth{
-    float: right;
-}
-#calendar.beamline-schedule a:hover{
-    cursor: pointer;
-}
 #bl-table{
-    width: 400px;
+    width: 600px;
     float: left;
    
 }
@@ -46,7 +28,7 @@ table{
 }
 
 
-#bl-table tr, #bl-table td{
+#bl-table tr, #bl-table td, caption{
     border: 1px solid rgb(223,223,223);
     text-align: center;
 }

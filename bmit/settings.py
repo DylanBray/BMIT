@@ -123,23 +123,26 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-   # 'django.contrib.sites',
+    # 'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
-      'django.contrib.admindocs',
-      'feincms',
-      'feincms.module.page',
-      'feincms.module.medialibrary',
-      'mptt',
-      'cms',
-     # 'feincms_tinymce',
-      'bl_booking',
-      'django.contrib.sitemaps',
-      'feincms.contrib.tagging',
-      'tagging',
+    'django.contrib.admindocs',
+    'feincms',
+    'feincms.module.page',
+    'feincms.module.medialibrary',
+    'mptt',
+    'cms',
+    # 'feincms_tinymce',
+    'bl_booking',
+    'django.contrib.sitemaps',
+    'feincms.contrib.tagging',
+    'tagging',
+    'aurora',
+    'gallery',
+    'tinymce',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -171,7 +174,7 @@ LOGGING = {
     }
 }
 FEINCMS_RICHTEXT_INIT_CONTEXT = {
-    'TINYMCE_JS_URL': STATIC_URL + 'tinymce/jscripts/tiny_mce/tiny_mce.js',
+    'TINYMCE_JS_URL': STATIC_URL + 'tiny_mce/tiny_mce.js',
 }
 FEINCMS_RICHTEXT_INIT_TEMPLATE = 'admin/richtext/init.html'
 
@@ -184,3 +187,13 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.static',
     'django.core.context_processors.request',
 )
+
+
+TINYMCE_DEFAULT_CONFIG = {
+    'plugins': "table,xhtmlxtras,paste,searchreplace",
+    'theme': "advanced",
+    "theme_advanced_buttons3_add" : "cite,abbr",
+    'cleanup_on_startup': True,
+    'custom_undo_redo_levels': 10,
+    'width':300,
+}

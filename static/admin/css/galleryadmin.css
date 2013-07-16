@@ -17,8 +17,7 @@
 
 
 .gallery-image, #sort-container .add-row  {
-	width: 194px;
-	height: 146px;
+	width: 590px;
 	float: left;
 	margin: 2px;
     border: 1px solid transparent;
@@ -27,12 +26,14 @@
 	position: relative;
 }
 #sort-container .add-row {
-	width: 184px;
+	width: 585px;
 	height: 140px;
 	background: #eee;
+	margin-top: 25px;
+	margin-bottom: 25x;
 }
 
-.absolute { position: absolute; }
+
 .gallery-image>h3 {
 	position: absolute;
 	top: 0; left: 0;
@@ -78,11 +79,13 @@ input.image-fk {
 	right: 2px;
 	width: 30px !important;
 	background: rgba(255,255,255,0.5);
+	z-index:1;
 }
 .lupe.mediafile {
 	position: absolute;
 	bottom: 3px;
 	right: 42px;
+	z-index: 1px;
 }
 .form-row.mediafile label {
 	display: none;

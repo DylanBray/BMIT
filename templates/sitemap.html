@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load feincms_page_tags %}
 
-{% block scripts %}<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}cms/css/sitemap.css">{% endblock %}
+{% block styles %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}cms/css/sitemap.css">{% endblock %}
 {% block content %}{{ block.super }}
 
 <div id="sitemap-wrapper">
