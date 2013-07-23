@@ -1,3 +1,4 @@
+"""
 from django.db import models
 from feincms.content.application import models as app_models
 from django.utils.translation import ugettext_lazy as _
@@ -11,3 +12,4 @@ class contact( models.Model):
 
     class Meta:
         unique_together = ('day', 'name')
+"""

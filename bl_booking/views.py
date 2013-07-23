@@ -1,7 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from datetime import date, timedelta, datetime, time
-from bl_booking.models import contact
 from ical.utils import icalParse, tdColour, getWeek
 from django.views.decorators.cache import cache_page
     
@@ -11,11 +10,11 @@ from django.views.decorators.cache import cache_page
 # returns the schedule table
 def buildTableBody(week):
    
-    bmEvents = icalParse("/webroot/bmit/static/calendar.ics")
+    bmEvents = icalParse("webroot/bmit/ical/static/ical/calendar.ics")
     table = '<tbody>'
     
     for weekday in week:
-        contacts = contact.objects.filter(day__exact=weekday).values()
+        
         table += '<tr>'
         table += '<td rowspan="3">' + weekday.strftime("%a %b %d/%y") +'</td><td>00:00-08:00</td><td '
         table +=  tdColour(bmEvents, weekday, 0)+ ' >'
@@ -25,9 +24,6 @@ def buildTableBody(week):
         table += '</td><td>'
         #ID 0 - 8 goes here
         table += '</td><td rowspan="3">'
-        for cont in contacts:
-            if weekday == cont['day']:
-                table += cont['name']
         table += '</td>'
         table += '</tr>'
         table += '<tr>'

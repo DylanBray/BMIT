@@ -9,6 +9,9 @@ from feincms.content.raw.models import RawContent
 from feincms.content.medialibrary.models import MediaFileContent
 from feincms.contrib import tagging
 from gallery.models import GalleryContent
+from news.models import news
+from news.models import newsList
+
 tagging.tag_model(Page)
 #tagging.TagSelectField(Page)
 
@@ -52,8 +55,14 @@ Page.create_content_type(MediaFileContent, TYPE_CHOICES=(
     ))
 Page.create_content_type(GalleryContent)
 
+
 Page.create_content_type(ApplicationContent, APPLICATIONS=(
     ('bl_booking.urls', 'Schedule'),
     ('aurora.urls', 'Aurora Schedule'),
+    ('news.urls', 'News'),
     ))
+
+Page.create_content_type(newsList)
+
+
 

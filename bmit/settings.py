@@ -29,7 +29,7 @@ CACHES = {
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -56,7 +56,7 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
-MEDIA_ROOT = '/webroot/bmit/media'
+MEDIA_ROOT = '/webroot/bmit/bmit/media'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -67,7 +67,7 @@ MEDIA_URL = '/media/'
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
-STATIC_ROOT = '/webroot/bmit/static/'
+STATIC_ROOT = '/webroot/bmit/bmit/static/'
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
@@ -113,7 +113,7 @@ ROOT_URLCONF = 'bmit.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'bmit.wsgi.application'
 
-TEMPLATE_DIRS = ("/webroot/bmit/templates",
+TEMPLATE_DIRS = ("/webroot/bmit/bmit/templates",
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -143,6 +143,7 @@ INSTALLED_APPS = (
     'aurora',
     'gallery',
     'tinymce',
+    'news'
 )
 
 # A sample logging configuration. The only tangible logging
@@ -197,3 +198,5 @@ TINYMCE_DEFAULT_CONFIG = {
     'custom_undo_redo_levels': 10,
     'width':300,
 }
+
+
