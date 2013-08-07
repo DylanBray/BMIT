@@ -44,6 +44,15 @@ Page.register_templates({
             ('column2', _('Column 2')),
             ('sidebar', _('Sidebar'), 'inherited'),
         ),
+        },{
+        'title': _('Home Layout'),
+        'path': 'home.html',
+        'regions': (
+            ('column1', _('Column 1')),
+            ('column2', _('Column 2')),
+            ('column3', _('Column 3')),
+            ('column4', _('Column 4'))
+        ),
         })
 
 
@@ -51,7 +60,7 @@ Page.create_content_type(RichTextContent)
 Page.create_content_type(RawContent)
 Page.create_content_type(MediaFileContent, TYPE_CHOICES=(
     ('default', _('default')),
-    ('plain', _('plain')),
+    ('plainImage', _('plainImage')),
     ))
 Page.create_content_type(GalleryContent)
 

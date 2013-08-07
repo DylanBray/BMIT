@@ -3,19 +3,20 @@
   src: url('/static/cms/font/timeburner_regular.ttf');
 } 
 #header{
-     background: url("/static/cms/img/header_bg_2.png") repeat-x scroll left top rgb(247, 247, 247);
-   border-bottom: 1px solid rgb(223, 223, 223);
+    background: url("/static/cms/img/header_bg_2.png") repeat-x scroll left top rgb(247, 247, 247);
+    border-bottom: 1px solid rgb(223, 223, 223);
+    min-width: 960px;
 }
 #banner{
    /* background: url("/media/medialibrary/2013/06/header_bg_2.png") repeat-x scroll left top rgb(220, 220, 220);*/
     margin: 0px auto;
     width: 960px;
 }
-#header ul li{
+#banner ul li{
     float:left;
   
 }
-#header ul li a{
+#banner ul li a{
     display: block;
      padding: 0px 0.75em;
      line-height: 30px;
@@ -23,15 +24,15 @@
      color: white;
      font-size:18px;
 }
-#header ul li a:hover{
+#banner ul li a:hover{
     color: #FBD602;
     text-shadow: 0px 0px 1px #FBD602;
 }
-#header ul li:hover ul.nav-submenu{
+#banner ul li:hover ul.nav-submenu{
     display: block; 
 }
 
-#header ul li a.current{
+#banner ul li a.current{
     background: none repeat scroll 0% 0% rgb(247, 247, 247);
     transform: skew(-10deg);
      -o-transform: skew(-10deg);
@@ -40,12 +41,12 @@
      transform-origin: 0 0;
      color: black;
 }
-#header ul li a.current:hover{
+#banner ul li a.current:hover{
     color: #1515FF;
     text-shadow: 0px 0px 1px #1515FF;
 }
 
-#header ul.nav-submenu {
+#banner ul.nav-submenu {
     display: none;
     list-style: none outside none;
     padding: 0px;
@@ -88,7 +89,7 @@
     text-shadow: 0px 0px 1px #FBD602;
      
 }
-#header ul li ul#current{
+#banner ul li ul#current{
     background-color: #F7F7F7;
 }
 #bannerLogo{
@@ -130,11 +131,11 @@ ul{
 
 #content{
   float: left;
-  max-width: 750px;
+  width: 750px;
 }
 #sidebar{
     float: right;
-    max-width:200px;
+    width:200px;
     overflow: hidden;
 }
 #content-wrapper{

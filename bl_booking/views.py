@@ -11,6 +11,7 @@ from django.views.decorators.cache import cache_page
 def buildTableBody(week):
    
     bmEvents = icalParse("webroot/bmit/ical/static/ical/calendar.ics")
+    idEvents = icalParse("webroot/bmit/ical/static/ical/calendar.ics")
     table = '<tbody>'
     
     for weekday in week:
@@ -21,9 +22,12 @@ def buildTableBody(week):
         for event in bmEvents:
             if (event['start'] <= datetime.combine(weekday,time(0)) and event['end'] >= datetime.combine(weekday,time(8))):
                 table += event['subject']
-        table += '</td><td>'
+        table += '</td><td '
+        table += tdColour(idEvents, weekday , 0) + ' >'
         #ID 0 - 8 goes here
-        table += '</td><td rowspan="3">'
+        for event in idEvents:
+            if (event['start'] <= datetime.combine(weekday,time(0)) and event['end'] >= datetime.combine(weekday,time(8))):
+                table += event['subject']
         table += '</td>'
         table += '</tr>'
         table += '<tr>'
@@ -32,8 +36,12 @@ def buildTableBody(week):
         for event in bmEvents:
             if (event['start'] <= datetime.combine(weekday,time(8)) and event['end'] >= datetime.combine(weekday, time(16))):
                 table += event['subject']
-        table += '</td><td>'
+        table += '</td><td '
+        table += tdColour(idEvents, weekday, 8) + ' >'
         #ID 8 - 16 goes here
+        for event in idEvents:
+            if (event['start'] <= datetime.combine(weekday,time(8)) and event['end'] >= datetime.combine(weekday, time(16))):
+                table += event['subject']
         table += '</td>'
         table += '</tr>'
         table += '<tr>'
@@ -42,8 +50,12 @@ def buildTableBody(week):
         for event in bmEvents:
             if (event['start'] <= datetime.combine(weekday,time(16)) and event['end'] >= datetime.combine(weekday + timedelta(days = 1), time(0))):
                 table += event['subject']
-        table += '</td><td>'
+        table += '</td><td '
+        table += tdColour(idEvents, weekday, 16) + ' >'
         #ID 16 - 24 goes here
+        for event in idEvents:
+            if (event['start'] <= datetime.combine(weekday,time(16)) and event['end'] >= datetime.combine(weekday + timedelta(days = 1), time(0))):
+                table += event['subject']
         table += '</td></tr>'
       
     table += '</tbody>'
