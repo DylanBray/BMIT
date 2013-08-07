@@ -1,0 +1,9 @@
+<h3>Latest News</h3>
+<hr>
+{% for object in object_list %}
+<h4>{{ object.title }}</h4>
+{% autoescape off %}
+{{ object.content| removetags:"p" | truncatewords:10 }}
+{% endautoescape %}
+<a href="{{ object.get_absolute_url }}#{{ object.title | slugify }}-{{ object.date | date:"Y-m-d" }}">More...</a>
+{% endfor %}

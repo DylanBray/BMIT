@@ -1,0 +1,1169 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-CALSTART:20130612T203000Z
+X-CALEND:20131008T210000Z
+X-CLIPSTART:20130610T060000Z
+X-CLIPEND:20131009T060000Z
+X-WR-RELCALID:{0000002E-40BC-ADE2-9FE7-D67FFFD38A3E}
+X-WR-CALNAME:Dylan Bray
+X-WR-CALDESC:
+X-PRIMARY-CALENDAR:TRUE
+X-PUBLISHED-TTL:PT20M
+X-OWNER;CN="Dylan Bray":mailto:Dylan.Bray@lightsource.ca
+X-MS-OLK-WKHRSTART;TZID="Canada Central Standard Time":080000
+X-MS-OLK-WKHREND;TZID="Canada Central Standard Time":170000
+X-MS-OLK-WKHRDAYS:MO,TU,WE,TH,FR
+BEGIN:VTIMEZONE
+TZID:Canada Central Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Eli Stavitski";RSVP=FALSE:mailto:Eli.Stavitski@lightsource.ca
+ATTENDEE;CN="**All CLSI Personnel";ROLE=OPT-PARTICIPANT;RSVP=FALSE:mailto:s
+	taff@lightsource.ca
+ATTENDEE;CN=pravica@physics.unlv.edu;ROLE=OPT-PARTICIPANT;RSVP=FALSE:mailto
+	:pravica@physics.unlv.edu
+CLASS:PUBLIC
+CREATED:20130606T160244Z
+DESCRIPTION: \nSEMINAR NOTICE\nCanadian Light Source Inc.\n\n\nSPEAKER:	Mic
+	hael Pravica\, Ph.D.\, Associate Professor of Physics\, University of Neva
+	da\, Las Vegas\n\nTOPIC:	Experiments of energetic and other materials subj
+	ected to extreme conditions using far- and mid-IR spectroscopies\n\nDATE:	
+	Wednesday\, June 12\, 2013\n\nTIME:	2:30 p.m.	\n		\nPLACE:	CLS Rooms 2068A
+	 and 2068B\n\nABSTRACT:	\n\nWe have undertaken high pressure diamond anvil
+	 cell studies of a number of energetic (HMX\, TATB\, PETN\, FOX7) and othe
+	r materials using synchrotron far- and mid-IR methods at the NSLS.  The ai
+	m of these studies entailed a determination the phase behavior and bonding
+	 alterations/chemistry of these important explosives with pressure.\nWe ha
+	ve found that IR interrogations do not result in sample damage and the acq
+	uired spectra do not suffer from contaminating fluorescence unlike in some
+	 Raman experiments that we conducted.  IR studies also offer complementary
+	 information to Raman experiments and thus supply a more complete molecula
+	r vibrational picture of the behavior of these explosives when subjected t
+	o shock wave conditions.\n In at least one case that we examined\, Raman s
+	pectra are nonexistent due to symmetry considerations and thus IR studies 
+	offer the only vibrational spectroscopic window into high pressure phases 
+	of matter.\n\nHOSTED BY:	Eli Stavitski\n\n\n\n\n\n\n\n\n\n\n\n\nRefreshmen
+	ts will be served for those attending the seminar.\n\nTo be added or remov
+	ed from the distribution list for CLS seminars\, please contact Erin Kinar
+	 at erin.kinar@lightsource.ca\n\n\n
+DTEND;TZID="Canada Central Standard Time":20130612T153000
+DTSTAMP:20130612T183657Z
+DTSTART;TZID="Canada Central Standard Time":20130612T143000
+LAST-MODIFIED:20130612T205311Z
+LOCATION:Rooms 2068A and 2068B
+ORGANIZER;CN="Erin Kinar":mailto:Erin.Kinar@lightsource.ca
+PRIORITY:5
+SEQUENCE:2
+SUMMARY;LANGUAGE=en-us:Seminar Notice - Michael Pravica\, Ph.D.\, Associate
+	 Professor of Physics\, University of Nevada\, Las Vegas
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000709AA2CA9B62CE01000000000000000
+	0100000005887BD7C504AE547873DAC84B86AA4E9
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG
+	="en-us"></SPAN><SPAN LANG="en-us"><B></B></SPAN><SPAN LANG="en-us"><B>&nb
+	sp\;</B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B></B><
+	/SPAN><SPAN LANG="en-us"><B><FONT SIZE=5 FACE="Arial">SEMINAR NOTICE</FONT
+	></B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><FONT SI
+	ZE=5 FACE="Arial">Canadian Light Source Inc.</FONT></B></SPAN></P>\n\n<P D
+	IR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LAN
+	G="en-us"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="
+	en-us"><B><FONT COLOR="#000000" FACE="Arial">SPEAKER:&nbsp\;&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\; Michael Pravica\, Ph.D.\, Associate Professor
+	 of Physics\, University of Nevada\, Las Vegas</FONT></B></SPAN></P>\n\n<P
+	 DIR=LTR><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="e
+	n-us"><B><FONT COLOR="#000000" FACE="Arial">TOPIC:&nbsp\; Experiments of e
+	nergetic and other materials subjected to extreme conditions using far- an
+	d mid-IR spectroscopies</FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en
+	-us"><B><FONT FACE="Arial">DATE:&nbsp\;&nbsp\; Wednesday\, June 12\, 2013<
+	/FONT></B></SPAN><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P DIR=LTR><SPAN
+	 LANG="en-us"><B></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B><FONT
+	 FACE="Arial">TIME:&nbsp\;&nbsp\; 2:30 p.m.&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+	sp\;&nbsp\; </FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B>&nb
+	sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; &nbsp\;&nbsp\;&nbsp\;&nbsp\
+	;&nbsp\;&nbsp\;&nbsp\; </B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B
+	><FONT FACE="Arial">PLACE:&nbsp\;</FONT></B></SPAN><SPAN LANG="en-us"><B> 
+	<FONT FACE="Arial">CLS</FONT></B></SPAN><SPAN LANG="en-us"><B> <FONT FACE=
+	"Arial">Rooms 2068A and 2068B</FONT></B></SPAN><SPAN LANG="en-us"><B></B><
+	/SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P DIR=L
+	TR ALIGN=JUSTIFY><SPAN LANG="en-us"><B><FONT FACE="Arial">ABSTRACT:&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; </FONT></B></SPAN></P>\n\n<P DIR=LTR><
+	SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPA
+	N LANG="en-ca"><FONT FACE="Arial">We have undertaken high pressure diamond
+	 anvil cell studies of a number of energetic (HMX\, TATB\, PETN\, FOX7) an
+	d other materials using synchrotron far- and mid-IR methods at the NSLS.&n
+	bsp\; The aim of these studies entailed a determination the phase behavior
+	 and bonding alterations/chemistry of these important explosives with pres
+	sure.</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Arial
+	">We have found that IR interrogations do not result in sample damage and 
+	the acquired spectra do not suffer from contaminating fluorescence unlike 
+	in some Raman experiments that we conducted.&nbsp\; IR studies also offer 
+	complementary information to Raman experiments and thus supply a more comp
+	lete molecular vibrational picture of the behavior of these explosives whe
+	n subjected to shock wave conditions.</FONT></SPAN></P>\n\n<P DIR=LTR><SPA
+	N LANG="en-ca"><FONT FACE="Arial">&nbsp\;In at least one case that we exam
+	ined\, Raman spectra are nonexistent due to symmetry considerations and th
+	us IR studies offer the only vibrational spectroscopic window into high pr
+	essure phases of matter.</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us
+	"><B><FONT FACE="Arial">HOSTED BY:&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</FON
+	T></B></SPAN><SPAN LANG="en-us"> <FONT FACE="Arial">Eli Stavitski</FONT></
+	SPAN></P>\n<BR>\n<BR>\n<BR>\n<BR>\n<BR>\n<BR>\n<BR>\n<BR>\n\n<P DIR=LTR><S
+	PAN LANG="en-us"></SPAN><SPAN LANG="en-ca"></SPAN></P>\n\n<P DIR=LTR><SPAN
+	 LANG="en-us"></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B
+	><I></I></B></SPAN><SPAN LANG="en-us"><B><I></I></B></SPAN></P>\n\n<P DIR=
+	LTR ALIGN=CENTER><SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG="en-us
+	"><B><I><FONT SIZE=2 FACE="Arial">Refreshments will be served for those at
+	tending the seminar.</FONT></I></B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER>
+	<SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I></I></B><
+	/SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><I><FONT COLOR
+	="#3366FF" SIZE=2 FACE="Arial">To be added or removed from the distributio
+	n list for CLS seminars\, please contact Erin Kinar at</FONT></I></B></SPA
+	N><SPAN LANG="en-us"> </SPAN><A HREF="mailto:erin.kinar@lightsource.ca"><S
+	PAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I><U><FONT CO
+	LOR="#0000FF" SIZE=2 FACE="Arial">erin.kinar@lightsource.ca</FONT></U></I>
+	</B></SPAN><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-us"><B><I></I></B>
+	</SPAN><SPAN LANG="en-us"><B><I></I></B></SPAN></P>\n\n<P DIR=LTR><SPAN LA
+	NG="en-us"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+X-MS-OLK-APPTLASTSEQUENCE:2
+X-MS-OLK-APPTSEQTIME:20130606T160030Z
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="**All CLSI Personnel";RSVP=TRUE:mailto:staff@lightsource.ca
+CLASS:PUBLIC
+CREATED:20130611T233905Z
+DESCRIPTION:SEMINAR NOTICE\nCanadian Light Source Inc.\n\n\nSPEAKER:	La Loc
+	he SotB students – La Loche\, SK\n\nTOPIC:	Environmental Awareness \n\nD
+	ATE:	Wednesday\, June 12\, 2013\n\nTIME:	3:30 p.m.	\n		\nPLACE:	CLS Rooms 
+	2068	\n\nABSTRACT:	Student scientists from La Loche & Bear Creek in northe
+	rn Saskatchewan explore tree core samples and soil as part of their enviro
+	nmental awareness course at school. They used x-ray fluorescence on IDEAS 
+	to analyze the chemistry of their samples. \n\nFor a sneak peak check out:
+	\n-	CLS Educational Outreach Facebook page at https://www.facebook.com/pag
+	es/CLS-Educational-Outreach/215317098557383?ref=hl \n-	CLS Research Office
+	 Flickr site: http://www.flickr.com/photos/clsresoff/sets/  \n-	a video on
+	 YouTube: http://www.youtube.com/watch?v=mwZhG9aBrpU \n\n\nHOSTED BY:	Trac
+	y Walker & Rob Blyth\n\n\n\n\n\n\n\n\n\n\n\n\nRefreshments will be served 
+	for those attending the seminar.\n\nTo be added or removed from the distri
+	bution list for CLS seminars\, please contact Erin Kinar at erin.kinar@lig
+	htsource.ca\n\n\n\n
+DTEND;TZID="Canada Central Standard Time":20130612T163000
+DTSTAMP:20130611T233728Z
+DTSTART;TZID="Canada Central Standard Time":20130612T153000
+LAST-MODIFIED:20130612T211544Z
+LOCATION:Room 2068
+ORGANIZER;CN="Tracy Walker":mailto:Tracy.Walker@lightsource.ca
+PRIORITY:5
+SEQUENCE:2
+SUMMARY;LANGUAGE=en-us:La Loche SotB seminar
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B07CF5DA8363CE01000000000000000
+	010000000D70AFF0A3D17E0419B239D53E6B20247
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><
+	/B></SPAN><SPAN LANG="en-us"><B><FONT SIZE=5 FACE="Arial">SEMINAR NOTICE</
+	FONT></B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><FON
+	T SIZE=5 FACE="Arial">Canadian Light Source Inc.</FONT></B></SPAN></P>\n\n
+	<P DIR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN
+	 LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LA
+	NG="en-us"><B></B></SPAN><B><SPAN LANG="fr-ca"><FONT COLOR="#000000" FACE=
+	"Arial">SPEAKER:&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; La Loche
+	 SotB</FONT></SPAN></B><SPAN LANG="en-us"><B></B></SPAN><B><SPAN LANG="en-
+	ca"> <FONT COLOR="#000000" FACE="Arial">students</FONT></SPAN></B><SPAN LA
+	NG="en-us"><B></B></SPAN><B><SPAN LANG="fr-ca"><FONT COLOR="#000000" FACE=
+	"Arial"> – La Loche\, SK</FONT></SPAN></B></P>\n\n<P DIR=LTR><SPAN LANG=
+	"en-us"><B></B></SPAN><B><SPAN LANG="fr-ca"></SPAN></B></P>\n\n<P DIR=LTR>
+	<SPAN LANG="en-us"><B><FONT COLOR="#000000" FACE="Arial">TOPIC:&nbsp\;</FO
+	NT></B></SPAN><SPAN LANG="en-us"><B> <FONT COLOR="#000000" FACE="Arial">En
+	vironmental Awareness</FONT></B></SPAN><SPAN LANG="en-us"><B> </B></SPAN><
+	/P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B><FONT FACE="Arial">DATE:&nbsp\;&nb
+	sp\; Wednesday\, June 12\, 2013</FONT></B></SPAN><SPAN LANG="en-us"><B></B
+	></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P DIR
+	=LTR><SPAN LANG="en-us"><B><FONT FACE="Arial">TIME:&nbsp\;&nbsp\;</FONT></
+	B></SPAN><SPAN LANG="en-us"><B> <FONT FACE="Arial">3</FONT></B></SPAN><SPA
+	N LANG="en-us"><B><FONT FACE="Arial">:30 p.m.&nbsp\;&nbsp\;&nbsp\;&nbsp\;&
+	nbsp\;&nbsp\; </FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B>&
+	nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; &nbsp\;&nbsp\;&nbsp\;&nbs
+	p\;&nbsp\;&nbsp\;&nbsp\; </B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us">
+	<B><FONT FACE="Arial">PLACE:&nbsp\;</FONT></B></SPAN><SPAN LANG="en-us"><B
+	> <FONT FACE="Arial">CLS</FONT></B></SPAN><SPAN LANG="en-us"><B> <FONT FAC
+	E="Arial">Rooms 2068</FONT></B></SPAN><SPAN LANG="en-us"><B>&nbsp\; </B></
+	SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P DIR=LT
+	R ALIGN=JUSTIFY><SPAN LANG="en-us"><B><FONT FACE="Arial">ABSTRACT:&nbsp\;&
+	nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</FONT></B></SPAN><SPAN LANG="en-us"><B>
+	 <FONT FACE="Arial">Student scientists from La Loche &amp\; Bear Creek in 
+	northern Saskatchewan explore</FONT></B></SPAN><SPAN LANG="en-us"><B> <FON
+	T FACE="Arial">tree core samples</FONT></B></SPAN><SPAN LANG="en-us"><B> <
+	FONT FACE="Arial">and</FONT></B></SPAN><SPAN LANG="en-us"><B> <FONT FACE="
+	Arial">soil</FONT></B></SPAN><SPAN LANG="en-us"><B> <FONT FACE="Arial">as 
+	part of their environmental awareness course at school. They used x-ray fl
+	uorescence on IDEAS to analyze the chemistry of their samples. </FONT></B>
+	</SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"><B><FONT FACE="
+	Arial">For a sneak peak check out:</FONT></B></SPAN></P>\n\n<P DIR=LTR><SP
+	AN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"><FONT 
+	FACE="Arial">-&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</FONT></SPAN><SPA
+	N LANG="en-us"><B></B></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us">
+	</SPAN><SPAN LANG="en-us"><B> <FONT FACE="Arial">CLS Educational Outreach 
+	Facebook page at</FONT></B></SPAN><SPAN LANG="en-us"> </SPAN><A HREF="http
+	s://www.facebook.com/pages/CLS-Educational-Outreach/215317098557383?ref=hl
+	"><SPAN LANG="en-us"><B><U><FONT COLOR="#0000FF" FACE="Arial">https://www.
+	facebook.com/pages/CLS-Educational-Outreach/215317098557383?ref=hl</FONT><
+	/U></B></SPAN><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-us"><B><FONT FA
+	CE="Arial"></FONT></B></SPAN><SPAN LANG="en-us"><B> </B></SPAN></P>\n\n<P 
+	DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en
+	-us"><FONT FACE="Arial">-&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</FONT>
+	</SPAN><SPAN LANG="en-us"><B></B><B> <FONT FACE="Arial">CLS Research Offic
+	e Flickr site:</FONT></B></SPAN><SPAN LANG="en-us"> </SPAN><A HREF="http:/
+	/www.flickr.com/photos/clsresoff/sets/"><SPAN LANG="en-us"><B><U><FONT COL
+	OR="#0000FF" FACE="Arial">http://www.flickr.com/photos/clsresoff/sets/</FO
+	NT></U></B></SPAN><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-us"><B><FON
+	T FACE="Arial">&nbsp\;</FONT></B></SPAN><SPAN LANG="en-us"><B> </B></SPAN>
+	</P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SP
+	AN LANG="en-us"><FONT FACE="Arial">-&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nb
+	sp\;</FONT></SPAN><SPAN LANG="en-us"><B></B><B> <FONT FACE="Arial">a video
+	 on YouTube:</FONT></B></SPAN><SPAN LANG="en-us"> </SPAN><A HREF="http://w
+	ww.youtube.com/watch?v=mwZhG9aBrpU"><SPAN LANG="en-us"><B><U><FONT COLOR="
+	#0000FF" FACE="Arial">http://www.youtube.com/watch?v=mwZhG9aBrpU</FONT></U
+	></B></SPAN><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-us"><B><FONT FACE
+	="Arial"> </FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><
+	SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPA
+	N LANG="en-ca"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B><FONT FACE=
+	"Arial">HOSTED BY:&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</FONT></B></SPAN><SP
+	AN LANG="en-us"> <FONT FACE="Arial">Tracy Walker &amp\; Rob Blyth</FONT></
+	SPAN><SPAN LANG="en-us"></SPAN></P>\n<BR>\n<BR>\n<BR>\n<BR>\n<BR>\n<BR>\n<
+	BR>\n<BR>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG="en-ca"></SPA
+	N></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR ALIGN=CE
+	NTER><SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I></I>
+	</B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><I></I></
+	B></SPAN><SPAN LANG="en-us"><B><I><FONT SIZE=2 FACE="Arial">Refreshments w
+	ill be served for those attending the seminar.</FONT></I></B></SPAN></P>\n
+	\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LA
+	NG="en-us"><B><I></I></B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG
+	="en-us"><B><I><FONT COLOR="#3366FF" SIZE=2 FACE="Arial">To be added or re
+	moved from the distribution list for CLS seminars\, please contact Erin Ki
+	nar at</FONT></I></B></SPAN><SPAN LANG="en-us"> </SPAN><A HREF="mailto:eri
+	n.kinar@lightsource.ca"><SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG
+	="en-us"><B><I><U><FONT COLOR="#0000FF" SIZE=2 FACE="Arial">erin.kinar@lig
+	htsource.ca</FONT></U></I></B></SPAN><SPAN LANG="en-us"></SPAN></A><SPAN L
+	ANG="en-us"><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I></I></B></SPAN><
+	/P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN></P>
+	\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:2
+X-MS-OLK-APPTSEQTIME:20130607T193520Z
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Robert Blyth";RSVP=FALSE:mailto:Robert.Blyth@lightsource.ca
+ATTENDEE;CN="**All CLSI Personnel";ROLE=OPT-PARTICIPANT;RSVP=FALSE:mailto:s
+	taff@lightsource.ca
+CLASS:PUBLIC
+CREATED:20130617T163657Z
+DESCRIPTION:SEMINAR NOTICE\nCanadian Light Source Inc.\n\n\nSPEAKER:	Varshn
+	i Singh\, Director (Interim) Microfab Group\, Center for Advanced Microstr
+	uctures & Devices (CAMD)/ Louisiana State University (LSU)\n\nTOPIC:	LIGA 
+	based Microfabrication and Microfluidics\n\n7DATE:	Monday\, June 17\, 2013
+	\n\nTIME:	2:00 p.m.	\n		\nPLACE:	CLS Rooms 2068A and 2068B\n\nABSTRACT:	\n
+	\nIn this seminar we will start with a brief overview of 3 X-ray lithograp
+	hy beamlines and the microfabrication facility at CAMD. This will follow w
+	ith the examples showing the research work involving LIGA (German acronym 
+	for Lithography-Electroplating-Molding) based fabrication of high aspect r
+	atio (HAR) microstructures for micro-electro-mechanical systems (MEMS)\, B
+	ioMEMS and/or microfluidic applications. These will include fabrication of
+	 X-ray mask using different type of substrates (carbon\, silicon nitride &
+	 beryllium)\, precision alignment of pre-patterned substrate to mask & pat
+	terning of positive (PMMA) and negative resist (SU-8/ MRX/ SUEX)\, electro
+	plating of patterned structures and molding using the electroplated mold i
+	nsert. Here\, we will also discuss the fabrication of multi-level structur
+	es using both positive and negative resist on silicon\, polymer or printed
+	 circuit board substrates. \n\nAdditionally\, in brief we will discuss mic
+	romilling to produce rapidly high quality mold inserts for molding microfl
+	uidic chips for biomedical\, biochemical as well as biological application
+	s\; and nanostructured &/or biocompatible thin films (Parylene & Diamond-l
+	ike Carbon) deposition and characterization.\n\nHOSTED BY:	Robert Blyth\n\
+	n\n\n\n\n\n\n\n\n\n\nRefreshments will be served for those attending the s
+	eminar.\n\nTo be added or removed from the distribution list for CLS semin
+	ars\, please contact Erin Kinar at erin.kinar@lightsource.ca\n\n\n
+DTEND;TZID="Canada Central Standard Time":20130617T150000
+DTSTAMP:20130617T163606Z
+DTSTART;TZID="Canada Central Standard Time":20130617T140000
+LAST-MODIFIED:20130625T174351Z
+LOCATION:Rooms 2068 A and B
+ORGANIZER;CN="Erin Kinar":mailto:Erin.Kinar@lightsource.ca
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Seminar Notice - Varshni Singh\, Director (Interim) 
+	Microfab Group\, Center for Advanced Microstructures & Devices (CAMD)/ Lou
+	isiana State University (LSU) 
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000000300779466BCE01000000000000000
+	010000000DE3F7FDC42D60441A64EC639E9C69F9C
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><
+	/B></SPAN><SPAN LANG="en-us"><B><FONT SIZE=5 FACE="Arial">SEMINAR NOTICE</
+	FONT></B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><FON
+	T SIZE=5 FACE="Arial">Canadian Light Source Inc.</FONT></B></SPAN></P>\n\n
+	<P DIR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN
+	 LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LA
+	NG="en-us"><B><FONT COLOR="#000000" FACE="Arial">SPEAKER:&nbsp\;&nbsp\;&nb
+	sp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; Varshni Singh\, Director (Interim) Microf
+	ab Group\, Center for Advanced Microstructures &amp\; Devices (CAMD)/ Loui
+	siana State University (LSU)</FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LAN
+	G="en-us"><B><FONT COLOR="#000000" FACE="Arial">TOPIC:&nbsp\; LIGA based M
+	icrofabrication and Microfluidics</FONT></B></SPAN></P>\n\n<P DIR=LTR><SPA
+	N LANG="en-us"><B><FONT FACE="Arial">7DATE:&nbsp\; Monday\, June 17\, 2013
+	</FONT></B></SPAN><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P DIR=LTR><SPA
+	N LANG="en-us"><B></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B><FON
+	T FACE="Arial">TIME:&nbsp\;&nbsp\; 2:0</FONT></B></SPAN><SPAN LANG="en-us"
+	><B><FONT FACE="Arial">0</FONT></B></SPAN><SPAN LANG="en-us"><B><FONT FACE
+	="Arial"> p.m.&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; </FONT></B></SPAN
+	></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbs
+	p\;&nbsp\;&nbsp\; &nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; </B></
+	SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B><FONT FACE="Arial">PLACE:&nb
+	sp\;</FONT></B></SPAN><SPAN LANG="en-us"><B> <FONT FACE="Arial">CLS Rooms 
+	2068A and 2068B</FONT></B></SPAN><SPAN LANG="en-us"><B></B></SPAN></P>\n\n
+	<P DIR=LTR><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTI
+	FY><SPAN LANG="en-us"><B><FONT FACE="Arial">ABSTRACT:&nbsp\;&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\; </FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-
+	us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG="en-ca"
+	><FONT FACE="Arial">In this seminar we will start with a brief overview of
+	 3 X-ray lithography beamlines and the microfabrication facility at CAMD. 
+	This will follow with the examples showing the research work involving LIG
+	A (German acronym for Lithography-Electroplating-Molding) based fabricatio
+	n of high aspect ratio (HAR) microstructures for micro-electro-mechanical 
+	systems (MEMS)\, BioMEMS and/or microfluidic applications. These will incl
+	ude fabrication of X-ray mask using different type of substrates (carbon\,
+	 silicon nitride &amp\; beryllium)\, precision alignment of pre-patterned 
+	substrate to mask &amp\; patterning of positive (PMMA) and negative resist
+	 (SU-8/ MRX/ SUEX)\, electroplating of patterned structures and molding us
+	ing the electroplated mold insert. Here\, we will also discuss the fabrica
+	tion of multi-level structures using both positive and negative resist on 
+	silicon\, polymer or printed circuit board substrates. </FONT></SPAN></P>\
+	n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Arial">Additionally\, in brie
+	f we will discuss micromilling to produce rapidly high quality mold insert
+	s for molding microfluidic chips for biomedical\, biochemical as well as b
+	iological applications\; and nanostructured &amp\;/or biocompatible thin f
+	ilms (Parylene &amp\; Diamond-like Carbon) deposition and characterization
+	.</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B><FONT FACE="Arial"
+	>HOSTED BY:&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</FONT></B></SPAN><SPAN LANG
+	="en-us"> <FONT FACE="Arial">Robert Blyth</FONT></SPAN></P>\n<BR>\n<BR>\n<
+	BR>\n<BR>\n<BR>\n<BR>\n<BR>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN 
+	LANG="en-ca"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n<
+	P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG=
+	"en-us"><B><I></I></B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="e
+	n-us"><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I><FONT SIZE=2 FACE="Ari
+	al">Refreshments will be served for those attending the seminar.</FONT></I
+	></B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><I></I><
+	/B></SPAN><SPAN LANG="en-us"><B><I></I></B></SPAN></P>\n\n<P DIR=LTR ALIGN
+	=CENTER><SPAN LANG="en-us"><B><I><FONT COLOR="#3366FF" SIZE=2 FACE="Arial"
+	>To be added or removed from the distribution list for CLS seminars\, plea
+	se contact Erin Kinar at</FONT></I></B></SPAN><SPAN LANG="en-us"> </SPAN><
+	A HREF="mailto:erin.kinar@lightsource.ca"><SPAN LANG="en-us"><B><I></I></B
+	></SPAN><SPAN LANG="en-us"><B><I><U><FONT COLOR="#0000FF" SIZE=2 FACE="Ari
+	al">erin.kinar@lightsource.ca</FONT></U></I></B></SPAN><SPAN LANG="en-us">
+	</SPAN></A><SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG="en-us"><B><
+	I></I></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG="
+	en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+X-MS-OLK-APPTLASTSEQUENCE:0
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="**Controls and Instrumentation Development";RSVP=TRUE:mailto:C
+	ontrols2@lightsource.ca
+ATTENDEE;CN="**Information and Communications Technologies";RSVP=TRUE:mailt
+	o:itservices@lightsource.ca
+ATTENDEE;CN="**Experimental Facilities Group";RSVP=TRUE:mailto:expfac@light
+	source.ca
+CLASS:PUBLIC
+CREATED:20130619T221300Z
+DESCRIPTION:There is a working group among synchrotrons and neutron facilit
+	ies that has been holding weekly video/phone conferences focused on the ex
+	change of information on the management of scientific data.  These take th
+	e form of a presentation(s) followed by Q&A.   The talks are at 9:00 a.m. 
+	Friday mornings our time.   This week’s session is:\n\n		Meta Data Manag
+	ement for Tomography data (30 min)  Rachana Ananthakrishnan (ANL)\n		NEXUS
+	/HDF5 (30 min) - Eugen Wintersberger \nHost(s): 	Amber Boehnlein (Stanford
+	)	\n\nDetails on past sessions are available below:\nhttps://confluence.sl
+	ac.stanford.edu/display/CLNSF/Home\n\n\n
+DTEND;TZID="Canada Central Standard Time":20130621T100000
+DTSTAMP:20130619T221124Z
+DTSTART;TZID="Canada Central Standard Time":20130621T090000
+LAST-MODIFIED:20130625T150149Z
+LOCATION:Room 2068
+ORGANIZER;CN="Gillian Black":mailto:Gillian.Black@lightsource.ca
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Friday "Ready Talk" Data Management Presentation 
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000E069442D076DCE01000000000000000
+	01000000061D32A0555D8A547AE90C86C652CBE96
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Calib
+	ri">There is a working group</FONT></SPAN><SPAN LANG="en-ca"> <FONT FACE="
+	Calibri">among</FONT></SPAN><SPAN LANG="en-ca"><FONT FACE="Calibri"> synch
+	rotrons and neutron facilities that has been holding weekly video</FONT></
+	SPAN><SPAN LANG="en-ca"><FONT FACE="Calibri">/phone</FONT></SPAN><SPAN LAN
+	G="en-ca"> <FONT FACE="Calibri">conferences focused on the exchange of inf
+	ormation on the management of scientific data.&nbsp\; These take the form 
+	of a presentation(s) followed by Q&amp\;A.&nbsp\;&nbsp\; The talks are at 
+	9:00 a.m. Friday mornings our time.&nbsp\;&nbsp\; This week’s session is
+	:</FONT></SPAN></P>\n<UL DIR=LTR><UL DIR=LTR>\n<P DIR=LTR><SPAN LANG="en-c
+	a"></SPAN><SPAN LANG="en-ca"><B></B></SPAN><SPAN LANG="en-ca"><B><FONT COL
+	OR="#003366" SIZE=2 FACE="Arial">Meta Data Management for Tomography data 
+	(30 min)  Rachana Ananthakrishnan (ANL)</FONT></B></SPAN><SPAN LANG="en-
+	ca"></SPAN><SPAN LANG="en-ca"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-ca"
+	><B></B></SPAN><SPAN LANG="en-ca"><B><FONT COLOR="#003366" SIZE=2 FACE="Ar
+	ial">NEXUS/HDF5 (30 min) - Eugen Wintersberger</FONT></B></SPAN><SPAN LANG
+	="en-ca"></SPAN><SPAN LANG="en-ca"> </SPAN></P>\n</UL></UL>\n<P DIR=LTR><S
+	PAN LANG="en-ca"></SPAN><SPAN LANG="en-ca"><B></B></SPAN><SPAN LANG="en-ca
+	"><B></B></SPAN><SPAN LANG="en-ca"><B><FONT COLOR="#1F497D" SIZE=2 FACE="A
+	rial">Host(s):</FONT></B></SPAN><SPAN LANG="en-ca"><B></B></SPAN><SPAN LAN
+	G="en-ca"><B></B></SPAN><SPAN LANG="en-ca"><B> &nbsp\;&nbsp\;&nbsp\;&nbsp\
+	;&nbsp\;&nbsp\; <FONT COLOR="#1F497D" SIZE=2 FACE="Arial">Amber Boehnlein<
+	/FONT></B></SPAN><SPAN LANG="en-ca"><B></B></SPAN><SPAN LANG="en-ca"><B></
+	B></SPAN><SPAN LANG="en-ca"><B> <FONT COLOR="#1F497D" SIZE=2 FACE="Arial">
+	(Stanford)</FONT></B></SPAN><SPAN LANG="en-ca"><B></B></SPAN><SPAN LANG="e
+	n-ca"><B></B></SPAN><SPAN LANG="en-ca"><B>&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbs
+	p\;</B></SPAN><SPAN LANG="en-ca"></SPAN><SPAN LANG="en-ca"></SPAN><SPAN LA
+	NG="en-ca"><BR>\n</SPAN><SPAN LANG="en-ca"></SPAN></P>\n\n<P DIR=LTR><SPAN
+	 LANG="en-ca"><FONT FACE="Calibri">Details on past sessions are available 
+	below:</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-ca"></SPAN><A HREF="
+	https://confluence.slac.stanford.edu/display/CLNSF/Home"><SPAN LANG="en-ca
+	"><U><FONT COLOR="#0000FF" FACE="Calibri">https://confluence.slac.stanford
+	.edu/display/CLNSF/Home</FONT></U></SPAN><SPAN LANG="en-ca"></SPAN></A><SP
+	AN LANG="en-ca"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-ca"></SPAN></P>\n
+	\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:0
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20130625T174612Z
+DESCRIPTION:\n
+DTEND;TZID="Canada Central Standard Time":20130627T123000
+DTSTAMP:20130710T190317Z
+DTSTART;TZID="Canada Central Standard Time":20130627T120000
+LAST-MODIFIED:20130703T145700Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-ca:BBQ
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000C043FBA79971CE01000000000000000
+	010000000411C3623DBB6F94E924C82B608183B33
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n</
+	BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:TRUE
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Purple Category
+CLASS:PUBLIC
+CREATED:20130626T184114Z
+DESCRIPTION:\n
+DTEND;TZID="Canada Central Standard Time":20130701T080000
+DTSTAMP:20130710T190317Z
+DTSTART;TZID="Canada Central Standard Time":20130628T080000
+LAST-MODIFIED:20130703T145700Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-ca:test
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000309D5D7D6A72CE01000000000000000
+	010000000C93472F0A0F41A48A127CA02403EA7A9
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n</
+	BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:TRUE
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Green Category
+CLASS:PUBLIC
+CREATED:20130627T213931Z
+DESCRIPTION:\n
+DTEND;VALUE=DATE:20130705
+DTSTAMP:20130710T190317Z
+DTSTART;VALUE=DATE:20130704
+LAST-MODIFIED:20130703T145700Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-ca:test
+TRANSP:TRANSPARENT
+UID:040000008200E00074C5B7101A82E00800000000A0C352874C73CE01000000000000000
+	0100000004E743D89FEF11541900FC8BE15E6E95B
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n</
+	BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:TRUE
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Ian Coulthard";RSVP=FALSE:mailto:Ian.Coulthard@lightsource.ca
+ATTENDEE;CN="**All CLSI Personnel";ROLE=OPT-PARTICIPANT;RSVP=FALSE:mailto:s
+	taff@lightsource.ca
+CLASS:PUBLIC
+CREATED:20130628T145402Z
+DESCRIPTION: \n\nSEMINAR NOTICE\nCanadian Light Source Inc.\n\n\nSPEAKER:	A
+	rthur R. Woll\, Cornell High Energy Synchrotron Source\, Cornell Universit
+	y\, Ithaca\, NY\n\nTOPIC:	Lithographically-fabricated channel arrays for c
+	onfocal x-ray fluorescence microscopy and XAFS\n\nDATE:	Friday\, June 28\,
+	 2013\n\nTIME:	11:30 a.m.	\n		\nPLACE:	CLS Rooms 2068A and 2068B\n\nABSTRA
+	CT:	\n\nConfocal X-ray Fluorescence Microscopy (CXRF) employs overlapping 
+	focal regions of two x-ray optics—a condenser and collector—to directl
+	y probe a 3D volume in space. In general\, polycapillaries are used as the
+	 collector owing to their large angular acceptance. Here\, we report a suc
+	cessful\, practical demonstration of an alternative collection optic for C
+	XRF. The optic consists of an array of micron-scale\, lithographically-fab
+	ricated collimating channels etched in a silicon wafer\, arranged like spo
+	kes around a single source position (Fig. 1). Using measurements of fluore
+	scence emission from a sample consisting of thin\, metal films deposited o
+	nto a Si substrate (Fig. 2)\, we obtain a depth resolution of 1.7±0.1 μm
+	 from 4.5-10 keV\, degrading slightly to 3.0±0.5 μm at 1.7 keV. Whereas 
+	the first optics fabricated using this approach [1] exhibit limited total 
+	collection efficiency and small working distances\, recent improvements to
+	 the design overcome these limitations. As a demonstration of the optics
+	’ resolution and sensitivity\, CXRF scans performed at CHESS on a grain 
+	of brown rice clearly show correlated\, ~5-micron-thick layers of K\, P\, 
+	Mn\, and Zn in the near-surface region or bran. We have also employed thes
+	e optics for confocal mapping and XAFS measurements at APS 20IDB\, and pre
+	sent studies of iron oxidation of a stained glass sample from a German cat
+	hedral\, as well as an arsenic-sulfide-based pigment and its degradation p
+	roducts in a sample from an early 18th century oil painting by Adriaen de 
+	Coorte.\n\nReferences:\n [1]	A. R. Woll\, D. Agyeman-Budu\, D. H. Bilderba
+	ck\, D. Dale\, A. Y. Kazimirov\, M. Pfeifer\, T. Plautz\, T. Szebenyi\, an
+	d G. Untracht\, in SPIE Optics and Photonics 2012\, edited by S. Goto\, C.
+	 Morowe\, and A.M. Khounsary (SPIE\, San Diego\, CA\, 2012)\, 8502\, 85020
+	K-85021-85014 (2012).\n\n\n 	\n\n	\nFigure 1: Schematic diagram of confoca
+	l XRF geometry with a spoked channel array as collection optic.	Figure 2: 
+	Depth-resolved fluorescence\, using CXRF in the geometry shown in Fig. 1\,
+	 from a stack of four metal films on Silicon. 	\n\n\nHOSTED BY:	Ian Coulth
+	ard\n\n\nRefreshments will be served for those attending the seminar.\nTo 
+	be added or removed from the distribution list for CLS seminars\, please c
+	ontact Erin Kinar at erin.kinar@lightsource.ca\n\n
+DTEND;TZID="Canada Central Standard Time":20130628T123000
+DTSTAMP:20130628T145012Z
+DTSTART;TZID="Canada Central Standard Time":20130628T113000
+LAST-MODIFIED:20130703T145700Z
+LOCATION:Room 2068A\; Room 2068B
+ORGANIZER;CN="Erin Kinar":mailto:Erin.Kinar@lightsource.ca
+PRIORITY:5
+SEQUENCE:2
+SUMMARY;LANGUAGE=en-us:Seminar Notice - Arthur R. Woll\, Cornell High Energ
+	y Synchrotron Source\, Cornell University\, Ithaca\, NY (time change to 11
+	:30 a.m.)
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000005004E5D50269CE01000000000000000
+	010000000689C3A4DF31782489F497666AEEDF0BE
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG
+	="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-ca">&nbsp\;</SPAN
+	></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B></B></SPAN><SPAN LA
+	NG="en-us"><B><FONT SIZE=4 FACE="Arial">SEMINAR NOTICE</FONT></B></SPAN></
+	P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><FONT SIZE=4 FACE="Ari
+	al">Canadian Light Source Inc.</FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN L
+	ANG="en-us"></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"></SP
+	AN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B>
+	</SPAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" SIZE=2 FACE="Arial">SPE
+	AKER:&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; Arthur R. Woll\, Co
+	rnell High Energy Synchrotron Source\, Cornell University\, Ithaca\, NY</F
+	ONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B></SPAN><SPAN L
+	ANG="en-us"><B></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B></S
+	PAN><SPAN LANG="en-us"><B><FONT COLOR="#000000" SIZE=2 FACE="Arial">TOPIC:
+	&nbsp\; Lithographically-fabricated channel arrays for confocal x-ray fluo
+	rescence microscopy and XAFS</FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LAN
+	G="en-us"><B></B></SPAN><SPAN LANG="en-us"><B><FONT SIZE=2 FACE="Arial">DA
+	TE:&nbsp\;&nbsp\; Friday\, June 28\, 2013</FONT></B></SPAN><SPAN LANG="en-
+	us"><B></B></SPAN><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P DIR=LTR><SPA
+	N LANG="en-us"><B></B></SPAN><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P D
+	IR=LTR><SPAN LANG="en-us"><B></B></SPAN><SPAN LANG="en-us"><B><FONT SIZE=2
+	 FACE="Arial">TIME:&nbsp\;&nbsp\; 11:</FONT></B></SPAN><SPAN LANG="en-us">
+	<B></B></SPAN><SPAN LANG="en-us"><B><FONT SIZE=2 FACE="Arial">3</FONT></B>
+	</SPAN><SPAN LANG="en-us"><B></B></SPAN><SPAN LANG="en-us"><B><FONT SIZE=2
+	 FACE="Arial">0 a.m.&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; </FONT></B></SPAN>
+	</P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B></B></SPAN><SPAN LANG="en-us"><B>
+	&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; &nbsp\;&nbsp\;&nbsp\;&nb
+	sp\;&nbsp\;&nbsp\;&nbsp\; </B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"
+	><B></B></SPAN><SPAN LANG="en-us"><B><FONT SIZE=2 FACE="Arial">PLACE:&nbsp
+	\;</FONT></B></SPAN><SPAN LANG="en-us"><B></B></SPAN><SPAN LANG="en-us"><B
+	> <FONT SIZE=2 FACE="Arial">CLS Rooms 2068A and 2068B</FONT></B></SPAN><SP
+	AN LANG="en-us"><B></B></SPAN><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P 
+	DIR=LTR><SPAN LANG="en-us"><B></B></SPAN><SPAN LANG="en-us"><B></B></SPAN>
+	</P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"><B></B></SPAN><SPAN LA
+	NG="en-us"><B><FONT SIZE=2 FACE="Arial">ABSTRACT:&nbsp\;&nbsp\;&nbsp\;&nbs
+	p\;&nbsp\;&nbsp\; </FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us">
+	</SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></S
+	PAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-ca"><FONT SIZE=2 FACE="Arial"
+	>Confocal X-ray Fluorescence Microscopy (CXRF) employs overlapping focal r
+	egions of two x-ray optics—a condenser and collector—to directly probe
+	 a 3D volume in space. In general\, polycapillaries are used as the collec
+	tor owing to their large angular acceptance. Here\, we report a successful
+	\, practical demonstration of an alternative collection optic for CXRF. Th
+	e optic consists of an array of micron-scale\, lithographically-fabricated
+	 collimating channels etched in a silicon wafer\, arranged like spokes aro
+	und a single source position (Fig. 1). Using measurements of fluores</FONT
+	></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en
+	-ca"><FONT SIZE=2 FACE="Arial Greek">cence emission from a sample consisti
+	ng of thin\, metal films deposited onto a Si substrate (Fig. 2)\, we obtai
+	n a depth resolution of 1.7±0.1 μm from 4.5-10 keV\, degrading slightly 
+	to 3.0±0.5 μm at 1.7 keV. Whereas the first optics fabricated using this
+	 app</FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPA
+	N LANG="en-ca"><FONT SIZE=2 FACE="Arial">roach [1] exhibit limited total c
+	ollection efficiency and small working distances\, recent improvements to 
+	the design overcome these limitations. As a demonstration of the optics’
+	 resolution and sensitivity\, CXRF scans performed at CHESS on a grain of 
+	brown rice clearly show correlated\, ~5-micron-thick layers of K\, P\, Mn\
+	, and Zn in the near-surface region or bran. We have also employed these o
+	ptics for confocal mapping and XAFS measurements at APS 20IDB\, and presen
+	t studies of iron oxidation of a stained glass sample from a German cathed
+	ral\, as well as an arsenic-sulfide-based pigment and its degradation prod
+	ucts in a sample from an early 18th century oil painting by Adriaen de Coo
+	rte.</FONT></SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"><B><
+	/B></SPAN><SPAN LANG="en-us"><B></B></SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTIF
+	Y><SPAN LANG="en-us"><B><FONT SIZE=2 FACE="Arial">References:</FONT></B></
+	SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"></SPAN><SPAN LANG
+	="en-us"><FONT SIZE=2 FACE="Arial">&nbsp\;[1]&nbsp\;&nbsp\;&nbsp\; A. R. W
+	oll\, D. Agyeman-Budu\, D. H. Bilderback\, D. Dale\, A. Y. Kazimirov\, M. 
+	Pfeifer\, T. Plautz\, T. Szebenyi\, and G. Untracht\, in</FONT></SPAN><SPA
+	N LANG="en-us"><B><I> <FONT SIZE=2 FACE="Arial">SPIE Optics and Photonics 
+	2012</FONT></I></B></SPAN><SPAN LANG="en-us"><FONT SIZE=2 FACE="Arial">\, 
+	edited by S. Goto\, C. Morowe\, and A.M. Khounsary (SPIE\, San Diego\, CA\
+	, 2012)\,</FONT></SPAN><SPAN LANG="en-us"><B> <FONT SIZE=2 FACE="Arial">85
+	02</FONT></B></SPAN><SPAN LANG="en-us"><FONT SIZE=2 FACE="Arial">\, 85020K
+	-85021-85014 (2012).</FONT></SPAN></P>\n<BR>\n\n<P DIR=LTR ALIGN=CENTER><S
+	PAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPA
+	N><SPAN LANG="en-us"><FONT FACE="Arial"></FONT></SPAN><SPAN LANG="en-us">&
+	nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</SPAN><SPAN LANG="en-ca">
+	</SPAN><SPAN LANG="en-ca"></SPAN><SPAN LANG="en-ca"></SPAN><SPAN LANG="en-
+	ca"></SPAN><SPAN LANG="en-ca"> </SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPA
+	N LANG="en-us">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</SPAN><SP
+	AN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN
+	><SPAN LANG="en-ca"><BR>\n</SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-
+	us"></SPAN><SPAN LANG="en-us"><FONT SIZE=2 FACE="Arial">Figure 1: Schemati
+	c diagram of confocal XRF geometry with a spoked channel array as collecti
+	on optic.&nbsp\;&nbsp\; Figure 2: Depth-resolved fluorescence\, using CXRF
+	 in the geometry shown in Fig. 1\, from a stack of four metal films on Sil
+	icon. &nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</FONT></SPAN><SPAN
+	 LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><
+	SPAN LANG="en-us"></SPAN><SPAN LANG="en-ca"><BR>\n</SPAN><SPAN LANG="en-us
+	"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="e
+	n-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG="en-u
+	s"></SPAN><SPAN LANG="en-ca"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us">
+	<B><FONT FACE="Arial">HOSTED BY:&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</FONT>
+	</B></SPAN><SPAN LANG="en-us"> <FONT FACE="Arial">Ian Coulthard</FONT></SP
+	AN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"><B><I></I></B></SPAN
+	><SPAN LANG="en-us"><B><I></I></B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><
+	SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I><FONT SIZE
+	=2 FACE="Arial">Refreshments will be served for those attending the semina
+	r.</FONT></I></B></SPAN></P>\n\n<P DIR=LTR ALIGN=CENTER><SPAN LANG="en-us"
+	><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I><FONT COLOR="#3366FF" SIZE=
+	2 FACE="Arial">To be added or removed from the distribution list for CLS s
+	eminars\, please contact Erin Kinar at</FONT></I></B></SPAN><SPAN LANG="en
+	-us"> </SPAN><A HREF="mailto:erin.kinar@lightsource.ca"><SPAN LANG="en-us"
+	><B><I></I></B></SPAN><SPAN LANG="en-us"><B><I><U><FONT COLOR="#0000FF" SI
+	ZE=2 FACE="Arial">erin.kinar@lightsource.ca</FONT></U></I></B></SPAN><SPAN
+	 LANG="en-us"></SPAN></A><SPAN LANG="en-us"><B><I></I></B></SPAN><SPAN LAN
+	G="en-us"><B><I></I></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPA
+	N><SPAN LANG="en-us"></SPAN><SPAN LANG="en-ca"></SPAN></P>\n\n</BODY>\n</H
+	TML>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+X-MS-OLK-APPTLASTSEQUENCE:2
+X-MS-OLK-APPTSEQTIME:20130614T195336Z
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="*Experimental Facilities meetings e-mail list";RSVP=TRUE:mailt
+	o:ExpFacmeetingsmaillist@lightsource.ca
+ATTENDEE;CN="Beatriz Moreno";RSVP=TRUE:mailto:Beatriz.Moreno@lightsource.ca
+ATTENDEE;CN="Stacie Rose";RSVP=TRUE:mailto:Stacie.Rose@lightsource.ca
+ATTENDEE;CN="Robert Blyth";RSVP=TRUE:mailto:Robert.Blyth@lightsource.ca
+ATTENDEE;CN="Betty Harper";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Betty.Harp
+	er@lightsource.ca
+ATTENDEE;CN="Heather Smith";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Heather.S
+	mith@lightsource.ca
+ATTENDEE;CN="Kathryn Janzen";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Kathryn.
+	Janzen@lightsource.ca
+ATTENDEE;CN="Ning Chen";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ning.Chen@lig
+	htsource.ca
+ATTENDEE;CN="**CLS Users Office";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:clsu
+	o@lightsource.ca
+ATTENDEE;CN="George Belev";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:George.Bel
+	ev@lightsource.ca
+ATTENDEE;CN="Pawel Grochulski";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Pawel.
+	Grochulski@lightsource.ca
+ATTENDEE;CN="Jeffrey Cutler";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Jeffrey.
+	Cutler@lightsource.ca
+ATTENDEE;CN="Chithra Karunakaran";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Chi
+	thra.Karunakaran@lightsource.ca
+ATTENDEE;CN="Jian Wang";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Jian.Wang@lig
+	htsource.ca
+ATTENDEE;CN="Sandra Ribeiro";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Sandra.R
+	ibeiro@lightsource.ca
+ATTENDEE;CN="Tomasz Wysokinski";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Tomas
+	z.Wysokinski@lightsource.ca
+ATTENDEE;CN="Skeeter T. Abell-Smith";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:
+	Skeeter.Abell-Smith@lightsource.ca
+ATTENDEE;CN="Chang-Yong Kim";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Chang-Yo
+	ng.Kim@lightsource.ca
+ATTENDEE;CN="James Gorin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:James.Gorin
+	@lightsource.ca
+ATTENDEE;CN="Shaun Labiuk";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Shaun.Labi
+	uk@lightsource.ca
+ATTENDEE;CN="Emil Hallin";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Emil.Hallin
+	@lightsource.ca
+ATTENDEE;CN="Alan Duffy";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Alan.Duffy@l
+	ightsource.ca
+ATTENDEE;CN="Thomas Ellis";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Thomas.Ell
+	is@lightsource.ca
+ATTENDEE;CN="Darcy Haluzan";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Darcy.Hal
+	uzan@lightsource.ca
+ATTENDEE;CN="Adam Webb";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Adam.Webb@lig
+	htsource.ca
+ATTENDEE;CN="Kathy Hyland";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Kathy.Hyla
+	nd@lightsource.ca
+ATTENDEE;CN="Tim May";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Tim.May@lightso
+	urce.ca
+ATTENDEE;CN="Andrea Albert";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Andrea.Al
+	bert@lightsource.ca
+ATTENDEE;CN="Xiaoyu Cui";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Xiaoyu.Cui@l
+	ightsource.ca
+ATTENDEE;CN="Ferenc Borondics";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ferenc
+	.Borondics@lightsource.ca
+ATTENDEE;CN="Mark Ferguson";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Mark.Ferg
+	uson@lightsource.ca
+ATTENDEE;CN="Ning Zhu";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ning.Zhu@light
+	source.ca
+ATTENDEE;CN="Ariel Gomez";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Ariel.Gomez
+	@lightsource.ca
+ATTENDEE;CN="Swathi Iyer";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Swathi.Iyer
+	@lightsource.ca
+ATTENDEE;CN="Allen Hodges";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:Allen.Hodg
+	es@lightsource.ca
+CLASS:PUBLIC
+CREATED:20130702T153945Z
+DESCRIPTION:Please make sure to accept this series of meetings (and delete 
+	the series that was sent to you by Janice Hiebert).\n
+DTEND;TZID="Canada Central Standard Time":20130702T111500
+DTSTAMP:20130702T153646Z
+DTSTART;TZID="Canada Central Standard Time":20130702T091500
+LAST-MODIFIED:20130703T145700Z
+LOCATION:Room 2068A\; Room 2068B
+ORGANIZER;CN="Erin Kinar":mailto:Erin.Kinar@lightsource.ca
+PRIORITY:5
+RRULE:FREQ=MONTHLY;COUNT=4;BYDAY=TU;BYSETPOS=1
+SEQUENCE:26
+SUMMARY;LANGUAGE=en-us:EFD Meeting
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000090466307099BCD01000000000000000
+	0100000005718E284CDB95B408EF78B6CA3CF8D01
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG
+	="en-ca"><FONT FACE="Calibri">Please</FONT></SPAN><SPAN LANG="en-us"><B></
+	B></SPAN><B><SPAN LANG="en-ca"> <FONT FACE="Calibri">make sure to accept</
+	FONT></SPAN></B><SPAN LANG="en-us"></SPAN><SPAN LANG="en-ca"><FONT FACE="C
+	alibri"> this series of meetings (and delete the series that was sent to y
+	ou by Janice Hiebert).</FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="
+	en-ca"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:26
+X-MS-OLK-APPTSEQTIME:20120926T143549Z
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20130702T153945Z
+DESCRIPTION:Please make sure to accept this series of meetings (and delete 
+	the series that was sent to you by Janice Hiebert).\n
+DTEND:20130702T180000Z
+DTSTAMP:20130702T153652Z
+DTSTART:20130702T160000Z
+LAST-MODIFIED:20130702T161102Z
+PRIORITY:5
+RECURRENCE-ID:20130702T151500Z
+SEQUENCE:28
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000090466307099BCD01000000000000000
+	0100000005718E284CDB95B408EF78B6CA3CF8D01
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG
+	="en-ca"><FONT FACE="Calibri">Please</FONT></SPAN><SPAN LANG="en-us"><B></
+	B></SPAN><B><SPAN LANG="en-ca"> <FONT FACE="Calibri">make sure to accept</
+	FONT></SPAN></B><SPAN LANG="en-us"></SPAN><SPAN LANG="en-ca"><FONT FACE="C
+	alibri"> this series of meetings (and delete the series that was sent to y
+	ou by Janice Hiebert).</FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="
+	en-ca"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20130702T153646Z
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20130702T153945Z
+DESCRIPTION:Please make sure to accept this series of meetings (and delete 
+	the series that was sent to you by Janice Hiebert).\n
+DTEND:20130806T180000Z
+DTSTAMP:20130702T153651Z
+DTSTART:20130806T160000Z
+LAST-MODIFIED:20130702T161101Z
+PRIORITY:5
+RECURRENCE-ID:20130806T151500Z
+SEQUENCE:27
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000090466307099BCD01000000000000000
+	0100000005718E284CDB95B408EF78B6CA3CF8D01
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG
+	="en-ca"><FONT FACE="Calibri">Please</FONT></SPAN><SPAN LANG="en-us"><B></
+	B></SPAN><B><SPAN LANG="en-ca"> <FONT FACE="Calibri">make sure to accept</
+	FONT></SPAN></B><SPAN LANG="en-us"></SPAN><SPAN LANG="en-ca"><FONT FACE="C
+	alibri"> this series of meetings (and delete the series that was sent to y
+	ou by Janice Hiebert).</FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="
+	en-ca"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20130702T153646Z
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="Denise Miller";RSVP=TRUE:mailto:Denise.Miller@lightsource.ca
+ATTENDEE;CN="Science Associate - BMIT";RSVP=TRUE:mailto:ScienceAssociate-BM
+	IT@lightsource.ca
+ATTENDEE;CN="Staff Scientist - BMIT";RSVP=TRUE:mailto:StaffScientist-BMIT@l
+	ightsource.ca
+ATTENDEE;CN="Student - BMIT";RSVP=TRUE:mailto:Student-BMIT@lightsource.ca
+ATTENDEE;CN="Stephen Hanson";RSVP=TRUE:mailto:Stephen.Hanson@lightsource.ca
+ATTENDEE;CN="Kevin Wyatt";RSVP=TRUE:mailto:Kevin.Wyatt@lightsource.ca
+ATTENDEE;CN="Patricia Kent";RSVP=TRUE:mailto:Patricia.Kent@lightsource.ca
+ATTENDEE;CN="Elizabeth Chapman";RSVP=TRUE:mailto:Elizabeth.Chapman@lightsou
+	rce.ca
+ATTENDEE;CN="Chapman, Dean";RSVP=TRUE:mailto:dean.chapman@usask.ca
+ATTENDEE;CN="David Cooper";RSVP=TRUE:mailto:davemlcooper@gmail.com
+ATTENDEE;CN="Grant Cubbon";RSVP=TRUE:mailto:Grant.Cubbon@lightsource.ca
+ATTENDEE;CN="Sheila Boire";RSVP=TRUE:mailto:sboire@rmd-engineering.com
+ATTENDEE;CN="Jim Boire";RSVP=TRUE:mailto:jboire@rmd-engineering.com
+ATTENDEE;CN="Danielle Anderson (adaniell@ualberta.ca)";RSVP=TRUE:mailto:ada
+	niell@ualberta.ca
+ATTENDEE;CN="Brad Warkentin (Brad.Warkentin@albertahealthservices.ca)";RSVP
+	=TRUE:mailto:Brad.Warkentin@albertahealthservices.ca
+CLASS:PUBLIC
+CREATED:20130703T204942Z
+DESCRIPTION:We aim for Sat July 27-th for our semi-annual potluck BBQ/picni
+	c. If  the weather would change dramatically Sun. July  28-th is a backup.
+	\n\nRules are simple you bring some food\, drinks\, chairs\, mosquito repe
+	llant and smiles and we provide the rest.\nKids\,  pets are welcome.\n\nPl
+	ease advise if you can attend\, we will do some coordination later on.\n\n
+	\n\n\ntomasz\n
+DTEND;TZID="Canada Central Standard Time":20130727T230000
+DTSTAMP:20130703T204933Z
+DTSTART;TZID="Canada Central Standard Time":20130727T150000
+LAST-MODIFIED:20130703T204942Z
+LOCATION:TWW place
+ORGANIZER;CN=bmitsched:mailto:bmitsched@lightsource.ca
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:BMIT Potluck Picnic
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000080FBBB8E7963CE01000000000000000
+	0100000008510D881295BB2438A1817164156C68C
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Calib
+	ri">We aim for Sat July 27-th for our semi-annual potluck BBQ/picnic. If&n
+	bsp\; the weather would change dramatically Sun. July&nbsp\; 28-th is a ba
+	ckup.</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Calib
+	ri">Rules are simple you bring some food\, drinks\, chairs\, mosquito repe
+	llant and smiles and we provide the rest.</FONT></SPAN></P>\n\n<P DIR=LTR>
+	<SPAN LANG="en-ca"><FONT FACE="Calibri">Kids\,&nbsp\; pets are welcome.</F
+	ONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Calibri">Plea
+	se advise if you can attend\, we will do some coordination later on.</FONT
+	></SPAN></P>\n<BR>\n<BR>\n<BR>\n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE
+	="Calibri">tomasz</FONT></SPAN><SPAN LANG="en-ca"></SPAN></P>\n\n</BODY>\n
+	</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:0
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Blue Category
+CLASS:PUBLIC
+CREATED:20130704T155159Z
+DESCRIPTION:\n
+DTEND;TZID="Canada Central Standard Time":20130703T110000
+DTSTAMP:20130710T190318Z
+DTSTART;TZID="Canada Central Standard Time":20130703T100000
+LAST-MODIFIED:20130708T185021Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-ca:test3
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000000D7462A9C78CE01000000000000000
+	0100000000F206EC2D96A384AA541830EE8CCEDC1
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n</
+	BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:TRUE
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="George Belev";RSVP=TRUE:mailto:George.Belev@lightsource.ca
+ATTENDEE;CN="Adam Webb";RSVP=TRUE:mailto:Adam.Webb@lightsource.ca
+ATTENDEE;CN="Ning Zhu";RSVP=TRUE:mailto:Ning.Zhu@lightsource.ca
+ATTENDEE;CN="Denise Miller";RSVP=TRUE:mailto:Denise.Miller@lightsource.ca
+ATTENDEE;CN="Dylan Bray";RSVP=TRUE;PARTSTAT=ACCEPTED;X-MS-OLK-RESPTIME=2013
+	0704T162900Z:mailto:Dylan.Bray@lightsource.ca
+CLASS:PUBLIC
+CREATED:20130130T230004Z
+DESCRIPTION:\n\nOur meeting will be moved to 2080 starting in 2 weeks\n\ntw
+	w\n\nBMIT internal meetings for 2012 winter term:\n\n\n- scheduling user s
+	upport shifts\n\n- latest beamline operation updates\n\n- coordination of 
+	attendance of meetings for the next two weeks (where BMIT delegate is requ
+	ired)\n\n- reports from the meetings in the last two weeks\n\n- reports fr
+	om conferences\, trainings etc.\n\n- coordination of  beamline upkeep task
+	s ( supplies\, cleaning\, etc)\n\n- update on documentation development\n\
+	n.......................\n\n
+DTEND;TZID="Canada Central Standard Time":20130618T150000
+DTSTAMP:20130130T225958Z
+DTSTART;TZID="Canada Central Standard Time":20130618T140000
+LAST-MODIFIED:20130703T140020Z
+LOCATION:Room 2080
+ORGANIZER;CN="Tomasz Wysokinski":mailto:Tomasz.Wysokinski@lightsource.ca
+PRIORITY:5
+RRULE:FREQ=WEEKLY;COUNT=9;INTERVAL=2;BYDAY=TU;WKST=SU
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:BIM - BMIT Internal Meeting
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000009099743C0BFFCD01000000000000000
+	0100000004F8F69B812116A42A0385C53798BDEAD
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-ca"></SPAN></P>\n\n<P
+	 DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Calibri">Our meeting will be moved
+	 to 2080 starting in 2 weeks</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="e
+	n-ca"><FONT FACE="Calibri">tww</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG=
+	"en-ca"><FONT FACE="Calibri">BMIT internal meetings for 2012 winter term:<
+	/FONT></SPAN></P>\n<BR>\n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Calib
+	ri">- scheduling user support shifts</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN
+	 LANG="en-ca"><FONT FACE="Calibri">- latest beamline operation updates</FO
+	NT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Calibri">- coo
+	rdination of attendance of meetings for the next two weeks (where BMIT del
+	egate is required)</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-ca"><FON
+	T FACE="Calibri">- reports from the meetings in the last two weeks</FONT><
+	/SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Calibri">- reports
+	 from conferences\, trainings etc.</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN L
+	ANG="en-ca"><FONT FACE="Calibri">- coordination of&nbsp\; beamline upkeep 
+	tasks ( supplies\, cleaning\, etc)</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN L
+	ANG="en-ca"><FONT FACE="Calibri">- update on documentation development</FO
+	NT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-ca"><FONT FACE="Calibri">.....
+	..................</FONT></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:0
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE;CN="*All non-CLSI and CLSI people";ROLE=OPT-PARTICIPANT;RSVP=TRUE:
+	mailto:OnsitePeople@lightsource.ca
+CLASS:PUBLIC
+CREATED:20130708T145836Z
+DESCRIPTION:SPEAKER:	Alexander Temnykh\, Cornell \n\nTOPIC:	Development of 
+	Compact\, Tunable Undulators at the Cornell High Energy Synchrotron Source
+	\n	\nABSTRACT:\n\nMotivated by the needs of the Cornell Energy Recovery Li
+	nac project and the CHESS upgrade program\, we developed a number of compa
+	ct\, tunable undulators based on a novel concept and optimized for use at 
+	linacs[1] and storage rings[2]. Successful tests were performed at the Adv
+	anced Test Facility at BNL and at the Cornell High Energy Synchrotron Sour
+	ce[3].\n\nThese undulators have pure permanent magnet arrays mounted on ra
+	ils inside a rectangular box-like compact frame.  The undulator gap is con
+	stant\; the magnetic field is controlled through axial displacement of the
+	 magnet arrays relative each other according to adjustable phase scheme de
+	veloped in[4]. \n\nIn my presentation\, I will review various aspects of t
+	he design and fabrication of the insertion devices\, as well as beam test 
+	results. \n\nReferences:\n[1]  A. Temnykh\, M. Babzien\, D. Davis\, M. Fed
+	urin\, K. Kusche\, J. Park\, and V. Yakimenko\, "Delta  undulator model: M
+	agnetic field and beam test results\," Nucl. Instrum. Methods Phys. Res.\,
+	 Sect. A 649 (1)\, 42-45 (2011).\n[2]   A. Temnykh\, T. Kobela\, A. Lyndak
+	er\, J. Savino\, E. Suttner\, and Y. L. Li\, "Compact Undulator for Cornel
+	l High Energy Synchrotron Source\," IEEE Transactions on Applied Supercond
+	uctivity 22 (3) (2012).\n[3]   A. Temnykh\, D. Dale\, E. Fontes\, Y. Li\, 
+	A. Lyndaker\, P. Revesz\, D. Rice\, and A. Woll\,  " Compact Undulator for
+	 the Cornell High Energy Synchrotron Source: Design and First Test Results
+	"\, To be published in proceedings the  11th  International  Conference  o
+	n  Synchrotron  Radiation  Instrumentation  (SRI)\,  Lyon\, France\, 2012.
+	\n[4]   R. Carr\, “Adjustable phase insertion devices as X-ray sources
+	”\, Nucl. Instrum. Methods Phys. Res.\, Sect. A 306\, 391 (1991)\n\n
+DTEND;TZID="Canada Central Standard Time":20130807T110000
+DTSTAMP:20130708T145607Z
+DTSTART;TZID="Canada Central Standard Time":20130807T100000
+LAST-MODIFIED:20130708T145836Z
+LOCATION:Room 2068A&B
+ORGANIZER;CN="Betty Harper":mailto:Betty.Harper@lightsource.ca
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Seminar:  Alexander Temnykh\, Development of Compact
+	\, Tunable Undulators at CHESS
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000080553DFCB87BCE01000000000000000
+	0100000001F9C723DA7255F48B954CECC6E093C87
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"><B><FONT FACE="Ar
+	ial">SPEAKER:&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; Alexander T
+	emnykh\, Cornell </FONT></B></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><
+	B><FONT FACE="Arial">TOPIC:&nbsp\;</FONT></B></SPAN><SPAN LANG="en-us"> <F
+	ONT FACE="Arial">Development of Compact\, Tunable Undulators at the Cornel
+	l High Energy Synchrotron Source</FONT></SPAN><SPAN LANG="en-us"><B></B></
+	SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><B>&nbsp\;&nbsp\;&nbsp\;&nbsp\;
+	&nbsp\;&nbsp\;&nbsp\;</B> </SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LA
+	NG="en-us"><B><FONT FACE="Arial">ABSTRACT:</FONT></B></SPAN></P>\n\n<P DIR
+	=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG="en-ca"></SPAN><SPAN LANG="en-ca
+	"></SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-ca"></SPAN><SPAN 
+	LANG="en-us"><FONT FACE="Arial">Motivated by the needs of the Cornell Ener
+	gy Recovery Linac project and the CHESS upgrade program\, we developed a n
+	umber of compact\, tunable undulators based on a novel concept and optimiz
+	ed for use at linacs</FONT></SPAN><SPAN LANG="en-us"><SUP><FONT FACE="Aria
+	l">[1]</FONT></SUP></SPAN><SPAN LANG="en-us"><FONT FACE="Arial"> and stora
+	ge rings</FONT></SPAN><SPAN LANG="en-us"><SUP><FONT FACE="Arial">[2]</FONT
+	></SUP></SPAN><SPAN LANG="en-us"><FONT FACE="Arial">. Successful tests wer
+	e performed at the Advanced Test Facility at BNL and at the Cornell High E
+	nergy Synchrotron Source</FONT></SPAN><SPAN LANG="en-us"><SUP><FONT FACE="
+	Arial">[3]</FONT></SUP></SPAN><SPAN LANG="en-us"><FONT FACE="Arial">.</FON
+	T></SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"><FONT FACE="A
+	rial">These undulators have pure permanent magnet arrays mounted on rails 
+	inside a rectangular box-like compact frame.&nbsp\; The undulator gap is c
+	onstant\; the magnetic field is controlled through axial displacement of t
+	he magnet arrays relative each other according to adjustable phase scheme 
+	developed in</FONT></SPAN><SPAN LANG="en-us"><SUP><FONT FACE="Arial">[4]</
+	FONT></SUP></SPAN><SPAN LANG="en-us"><FONT FACE="Arial">. </FONT></SPAN></
+	P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"><FONT FACE="Arial">In</F
+	ONT></SPAN><SPAN LANG="en-us"> <FONT FACE="Arial">my</FONT></SPAN><SPAN LA
+	NG="en-us"> <FONT FACE="Arial">presentation</FONT></SPAN><SPAN LANG="en-us
+	"><FONT FACE="Arial">\,</FONT></SPAN><SPAN LANG="en-us"><FONT FACE="Arial"
+	> I will review various aspects of the design and fabrication of the inser
+	tion devices\, as well as beam test results. </FONT></SPAN></P>\n\n<P DIR=
+	LTR ALIGN=JUSTIFY><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"><FONT SIZE=
+	2 FACE="Arial">References:</FONT></SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTIFY><
+	SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"><FONT SIZE=2 FACE="Arial">[1]&
+	nbsp\; A. Temnykh\, M. Babzien\, D. Davis\, M. Fedurin\, K. Kusche\, J. Pa
+	rk\, and V. Yakimenko\, &quot\;Delta&nbsp\; undulator model: Magnetic fiel
+	d and beam test results\,&quot\; Nucl. Instrum. Methods Phys. Res.\, Sect.
+	 A 649 (1)\, 42-45 (2011).</FONT></SPAN></P>\n\n<P DIR=LTR ALIGN=JUSTIFY><
+	SPAN LANG="en-us"><FONT SIZE=2 FACE="Arial">[2]&nbsp\;&nbsp\; A. Temnykh\,
+	 T. Kobela\, A. Lyndaker\, J. Savino\, E. Suttner\, and Y. L. Li\, &quot\;
+	Compact Undulator for Cornell High Energy Synchrotron Source\,&quot\; IEEE
+	 Transactions on Applied Superconductivity 22 (3) (2012).</FONT></SPAN></P
+	>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"><FONT SIZE=2 FACE="Arial"
+	>[3]&nbsp\;&nbsp\; A. Temnykh\, D. Dale\, E. Fontes\, Y. Li\, A. Lyndaker\
+	, P. Revesz\, D. Rice\, and A. Woll\,&nbsp\; &quot\; Compact Undulator for
+	 the Cornell High Energy Synchrotron Source: Design and First Test Results
+	&quot\;\, To be published in proceedings the&nbsp\; 11th&nbsp\; Internatio
+	nal&nbsp\; Conference&nbsp\; on&nbsp\; Synchrotron&nbsp\; Radiation&nbsp\;
+	 Instrumentation&nbsp\; (SRI)\,&nbsp\; Lyon\, France\, 2012.</FONT></SPAN>
+	</P>\n\n<P DIR=LTR ALIGN=JUSTIFY><SPAN LANG="en-us"><FONT SIZE=2 FACE="Ari
+	al">[4]&nbsp\;&nbsp\; R. Carr\, “Adjustable phase insertion devices as X
+	-ray sources”\, Nucl. Instrum. Methods Phys. Res.\, Sect. A 306\, 391 (1
+	991)</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG=
+	"en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:0
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

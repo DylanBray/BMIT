@@ -1,0 +1,40 @@
+#content{
+    width:auto;
+}
+#column1, #column2, #column3, #column4{
+    width: 445px;
+    float: left;
+    padding: 0px 15px;
+    padding-bottom: 5px;
+ 
+}
+
+#column4 {
+    width: 445px;
+    float: left;
+    padding: 0px 15px;
+    padding-bottom: 5px;
+}
+
+#column2 {
+    width: 300px;
+    padding-top: 20px;
+}
+
+#column3{
+    width: 445px;
+}
+
+#column1{
+    width: 610px;
+    padding-left: 0px;
+}
+
+#top-wrapper{
+    height: auto;
+    overflow: auto;
+}
+
+# top-wrapper a{
+    
+}

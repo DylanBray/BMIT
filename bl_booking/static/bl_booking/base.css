@@ -1,0 +1,66 @@
+#bl-main-wrapper {
+    margin: 22px 0px 22px;
+}
+
+
+#bl-main-wrapper.beamline-schedule{
+    float:left;
+    width: 900px;
+    margin 0px auto;
+}
+
+
+#bl-table{
+    width: 600px;
+    float: left;
+   
+}
+
+#nextWeek{
+    float: right;
+}
+
+#prevWeek{
+    float: left;
+}
+table{
+    border-collapse: collapse;
+}
+
+
+#bl-table tr, #bl-table td, caption{
+    border: 1px solid rgb(223,223,223);
+    text-align: center;
+}
+
+#bl-table td{
+    background-color: #F5F5F5;
+}
+#bl-table thead{
+    background-color: #E3E3E3;
+    text-align: center;
+}
+
+#bl-table .orange{
+    background-color: #FFB76A;
+}
+
+#bl-table .blue{
+    background-color: #B9CCFF;
+}
+
+#bl-table .yellow{
+    background-color: #FFFBAB;
+}
+
+#bl-table .purple{
+    background-color: #E6B7FF;
+}
+
+#bl-table .green{
+    background-color: #CCFFCD;
+}
+
+#bl-table .red{
+    background-color: #FFB0AE;
+}
