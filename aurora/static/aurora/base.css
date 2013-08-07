@@ -1,0 +1,61 @@
+#aurora-main-wrapper {
+    margin: 22px 0px 22px;
+    float:left;
+    width: 900px;
+}
+
+
+#aurora-table{
+    width: 600px;
+    float: left;
+   
+}
+
+#nextWeek{
+    float: right;
+}
+
+#prevWeek{
+    float: left;
+}
+table{
+    border-collapse: collapse;
+}
+
+
+#aurora-table tr, #aurora-table td, caption{
+    border: 1px solid rgb(223,223,223);
+    text-align: center;
+}
+
+#aurora-table td{
+    background-color: #F5F5F5;
+}
+#aurora-table thead{
+    background-color: #E3E3E3;
+    text-align: center;
+}
+
+#aurora-table .orange{
+    background-color: #FFB76A;
+}
+
+#aurora-table .blue{
+    background-color: #B9CCFF;
+}
+
+#aurora-table .yellow{
+    background-color: #FFFBAB;
+}
+
+#aurora-table .purple{
+    background-color: #E6B7FF;
+}
+
+#aurora-table .green{
+    background-color: #CCFFCD;
+}
+
+#aurora-table .red{
+    background-color: #FFB0AE;
+}

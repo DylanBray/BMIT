@@ -1,0 +1,19 @@
+#calendar.beamline-schedule{
+    float:right;
+}
+
+#calendar.beamline-schedule table{
+    float:left;
+    width: 200px;
+    text-align: center;
+     border: 1px solid rgb(223,223,223);
+}
+#calendar.beamline-schedule a#prevMonth{
+    float: left;
+}
+#calendar.beamline-schedule a#nextMonth{
+    float: right;
+}
+#calendar.beamline-schedule a:hover{
+    cursor: pointer;
+}

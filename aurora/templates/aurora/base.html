@@ -1,0 +1,438 @@
+{% extends feincms_page.template.path|default:"base.html" %}
+  {% load feincms_page_tags %}
+ {{ feincms_page.content.media }}
+{% block content %}
+<div id="aurora-main-wrapper">
+  <h3>{{ weektime.zero.0 | date:"N j, Y" }} - {{ weektime.zero.6 | date:"N j, Y" }}</h3>
+ 
+  <table id="aurora-table">
+    <caption>
+      <a id="prevWeek" href="{% if feincms_page.parent %}{% feincms_parentlink of feincms_page level=1 %}{% else %}/{% endif %}{{ feincms_page.slug }}/{{ previousWeek|date:"Y-m-d" }}">
+	<img src="/static/cms/img/leftarrow.png" alt="Previous">
+      </a>
+      <a href="{% if feincms_page.parent %}{% feincms_parentlink of feincms_page level=1 %}{% else %}/{% endif %}{{ feincms_page.slug }}">
+	Current Week
+      </a>
+      <a id="nextWeek" href="{% if feincms_page.parent %}{% feincms_parentlink of feincms_page level=1 %}{% else %}/{% endif %}{{ feincms_page.slug}}/{{ nextWeek|date:"Y-m-d" }}">
+	<img src="/static/cms/img/rightarrow.png" alt="Next">
+      </a>
+    </caption>
+    <thead>	
+      <th>&nbsp</th>
+      {% for day in weektime.zero %}
+      <th>{{ day | date:"d D" }}</th>
+      {% endfor %}
+    </thead>
+    <tbody>
+  
+      <tr>
+
+	<td>0:00</td> 
+	{% for time in weektime.zero %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+      <tr>
+	<td>1:00</td> 
+	{% for time in weektime.one %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr> 
+      <tr>
+
+	<td>2:00</td> 
+	{% for time in weektime.two %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+      <tr>
+
+	<td>3:00</td> 
+	{% for time in weektime.three %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+      <tr>
+	<td>4:00</td> 
+	{% for time in weektime.four %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+       <tr>
+
+	<td>5:00</td> 
+	{% for time in weektime.five %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+      <tr>
+
+	<td>6:00</td> 
+	{% for time in weektime.six %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+       <tr>
+
+	<td>7:00</td> 
+	{% for time in weektime.seven %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+      <tr>
+	<td>8:00</td> 
+	{% for time in weektime.eight%}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+       <tr>
+
+	<td>9:00</td> 
+	{% for time in weektime.nine %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+        <tr>
+
+	<td>10:00</td> 
+	{% for time in weektime.ten %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+	 <tr>
+
+	<td>11:00</td> 
+	{% for time in weektime.eleven %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+      <tr>
+
+	<td>12:00</td> 
+	{% for time in weektime.twelve%}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+      <tr>
+
+	<td>13:00</td> 
+	{% for time in weektime.thirteen %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+       <tr>
+
+	<td>14:00</td> 
+	{% for time in weektime.fourteen %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+        <tr>
+
+	<td>15:00</td> 
+	{% for time in weektime.fifteen %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+      <tr>
+
+	<td>16:00</td> 
+	{% for time in weektime.sixteen%}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+       <tr>
+
+	<td>17:00</td> 
+	{% for time in weektime.seventeen %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+        <tr>
+
+	<td>18:00</td> 
+	{% for time in weektime.eighteen %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+	 <tr>
+
+	<td>19:00</td> 
+	{% for time in weektime.nineteen %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+      <tr>
+
+	<td>20:00</td> 
+	{% for time in weektime.twenty%}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+       <tr>
+
+	<td>21:00</td> 
+	{% for time in weektime.twentyone %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+        <tr>
+
+	<td>22:00</td> 
+	{% for time in weektime.twentytwo %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+	 <tr>
+
+	<td>23:00</td> 
+	{% for time in weektime.twentythree %}
+	<td>
+	  {% for event in events %}
+	  {% if event.start <= time and event.end > time %}
+	    {{ event.subject }}
+	    {% endif %}
+	    {% endfor %}
+	</td>
+	{% endfor %}
+      </tr>
+
+    </tbody>		  
+  </table>
+  
+  <div id="calendar" class="beamline-schedule">
+  </div>
+</div>  
+Please contact Adam Webb or George Belev for booking time.
+<script type="text/javascript">
+var d = new Date();
+var path = '{% if feincms_page.parent %}{% feincms_parentlink of feincms_page level=1 %}{% else %}/{% endif %}{{ feincms_page.slug }}';
+var calendar = document.getElementById("calendar");
+var leftarrowpath = {{ STATIC_URL }} + 'cms/img/leftarrow.png';
+var rightarrowpath = {{ STATIC_URL }} + 'cms/img/rightarrow.png';
+
+var monthString = ['January',
+		   'February',
+		   'March',
+		   'April',
+		   'May',
+		   'June',
+		   'July',
+		   'August',
+		   'September',
+		   'October',
+		   'November',
+		   'December'
+		  ];
+
+function getFirstDay(year, month){
+  
+    return new Date(year, month, 1).getDay();
+}
+
+/*
+ * returns number of days in month
+ */
+function getNumDays(year, month){
+    return new Date(year, month + 1, 0).getDate();
+}
+
+function getLastDay(year, month){
+    return new Date(year, month, getNumDays(year, month)).getDay();
+} 
+
+function nextMonth(){
+    d.setMonth(d.getMonth() + 1);
+    drawCalendar(d);
+}
+
+function prevMonth(){
+    d.setMonth(d.getMonth() - 1);
+    drawCalendar(d);
+}
+ 
+function drawCalendar(date){
+    var currentMonth = date.getMonth();
+    if(currentMonth < 9)
+       var drawMonth = '0' + (currentMonth + 1);
+    else
+       var drawMonth = (currentMonth + 1);
+    var currentYear = date.getFullYear();
+    var currentDay = date.getDate();
+    var firstDayMonth = getFirstDay(currentYear, currentMonth);
+    var lastDayMonth = getNumDays(currentYear, currentMonth);
+    var lastDayNum = getLastDay(currentYear, currentMonth);
+    
+    var calendarString = '<table><caption><a id="prevMonth"  onclick="prevMonth()"><img alt="prev" src="'+ leftarrowpath +'"></a>' 
+		       + monthString[currentMonth] + ' ' + currentYear +
+		       '<a id="nextMonth"  onclick="nextMonth()"><img alt="next"src="'+ rightarrowpath +'"></a></caption><thead>'+
+	'<tr><th>Su</th><th>M</th><th>T</th><th>W</th><th>Th</th><th>F</th><th>Sa</th></tr></thead><tr>';
+
+    for(var i = 0; i < firstDayMonth; i++){
+	calendarString += '<td></td>';
+    }
+
+
+    for(var i = firstDayMonth + 1; i <=   lastDayMonth + firstDayMonth; i++){
+	var day = i - firstDayMonth;
+        if(day < 10)
+           linkDay = '0' + day;
+        else
+           linkDay = day;
+        
+	calendarString += '<td><a href="'+path+'/'+currentYear+'-'+drawMonth+'-'+linkDay+'">'+day+'</td>';
+	if(i % 7 == 0)
+	    calendarString += '</tr><tr>';
+    }
+
+    for(var i = 0; i < 6 - lastDayNum; i++){
+	calendarString += '<td></td>';
+    }
+
+    calendarString += '</tr></table>';
+    calendar.innerHTML = calendarString;
+}
+    
+drawCalendar(d); 
+</script>
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}aurora/base.css">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}aurora/calendar.css">
+{% endblock %}
