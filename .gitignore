@@ -5,6 +5,4 @@ local_settings.py
 *~
 /cms/static/cms/img/*
 /cms/static/cms/files/*
-/bmit/static/*
-/bmit/media/*
 /cms/tiny_mce/*
