@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load feincms_page_tags %}
+{{ feincms_page.content.media }}
+{% block styles %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}cms/css/home.css">{% endblock %}
+
+{% load feincms_tags%}
+{% block title %}
+   <h2> BioMedical Image and Therapy Facility </h2>
+
+   <div id="column1">
+     {% block column1 %}
+     {% for content in feincms_page.content.column1 %}
+     {% feincms_render_content content request %}
+     {% endfor %}
+     {% endblock %}
+   </div>
+
+
+   <div id="column2">
+     {% block column2 %}
+     {% for content in feincms_page.content.column2 %}
+     {% feincms_render_content content request %}
+     {% endfor %}
+     {% endblock %}
+   </div>
+
+
+{% endblock %}
+{% block content %}
+   <div id="column3">
+     {% block column3 %}
+     {% for content in feincms_page.content.column3 %}
+     {% feincms_render_content content request %}
+     {% endfor %}
+     {% endblock %}
+   </div>
+
+   <div id="column4">
+     {% block column4 %}
+     {% for content in feincms_page.content.column4 %}
+     {% feincms_render_content content request %}
+     {% endfor %}
+     {% endblock %}
+   </div>
+{% endblock %}

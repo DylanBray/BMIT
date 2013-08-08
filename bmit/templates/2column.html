@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load feincms_page_tags %}
+{{ feincms_page.content.media }}
+{% block styles %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}cms/css/2column.css">{% endblock %}
+
+{% load feincms_tags%}
+{% block content %}
+<div id="column1">
+{% block column1 %}
+{% for content in feincms_page.content.column1 %}
+{% feincms_render_content content request %}
+{% endfor %}
+{% endblock %}
+</div>
+
+
+<div id="column2">
+{% block column2 %}
+{% for content in feincms_page.content.column2 %}
+{% feincms_render_content content request %}
+{% endfor %}
+{% endblock %}
+</div>
+{% endblock %}
+{% block sidebar %}{{ block.super }}{% endblock %}

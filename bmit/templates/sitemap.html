@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load feincms_page_tags %}
+{% block styles %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}cms/css/sitemap.css">{% endblock %}
+{% block content %}{{ block.super }}
+<div id="sitemap-wrapper">
+<ul>
+  {% feincms_nav feincms_page level=1 depth=1 as level %}
+  {% for p in level %}
+  <li><a  class="mainpage" href="{{ p.get_absolute_url }}">{{ p.slug|title }}</a>
+    {% if p.children.in_navigation %}<ul>{% endif %}
+      {% feincms_nav feincms_page level=1 depth=2 as sublevel %}
+      {% for k in sublevel %}
+      {% if k.level = 1 and k.parent.title = p.title %}
+      <li><a href="{{ k.get_absolute_url }}">{{ k.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+      {% if p.children.in_navigation %}
+    </ul>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+</div>
+{% endblock %}
+
+

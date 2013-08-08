@@ -1,0 +1,87 @@
+{% load feincms_thumbnail i18n %}
+  <link rel="stylesheet" type="text/css" media="screen" href="{{ STATIC_URL }}gallery/liquid-slider/css/liquid-slider.css">
+<link REL="SHORTCUT ICON" HREF="/static/cms/img/favicon.ico">
+    <!-- This is just styling for the demo to make it a little less crowded at the top -->
+
+
+
+    <!-- Liquid Slider relies on jQuery and easing effects-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="{{ STATIC_URL }}gallery/liquid-slider/js/jquery.easing.1.3.js"></script>
+
+    <!-- Optional code for enabling touch -->
+    <script src="{{ STATIC_URL }}gallery/liquid-slider/js/jquery.touchSwipe.min.js"></script>
+
+    <!-- This is Liquid Slider code. The full version (not .min) is also included in the js directory -->
+    <script src="{{ STATIC_URL }}gallery/liquid-slider/js/jquery.liquid-slider-custom.min.js"></script> 
+    <script>
+      $(function(){
+
+      /* Here is the slider using default settings */
+      //  $('#slider-id').liquidSlider();
+
+      
+      
+      $('#slider-id').liquidSlider({
+           dynamicTabsAlign:"left",
+           mobileNavigation: false,
+           panelTitleSelector: "span.title",
+           dynamicTabsPosition: "bottom",
+          dynamicArrows: false,
+          autoSlide: true,
+           autoHeight:false
+       
+      })
+
+      
+
+      /* If you need to access the internal property or methods, use this:
+      
+      var sliderObject = $.data( $('#slider-id')[0], 'liquidSlider');
+      console.log(sliderObject);
+
+      */
+
+
+    });
+</script>
+
+
+<div id="main-slider-wrapper">
+  <div class="liquid-slider"  id="slider-id">
+ 
+   {% for mediafile in gallerymediafile %}
+
+    
+    <div>
+    
+      <img class="gallery-cell-img" src="{{MEDIA_URL}}{{ mediafile.mediafile.file.name }}" alt="{{ mediafile.mediafile.translation.caption }}" width="{{mediafile.width}}" height="{{mediafile.height}}" >
+ <h3 class="title">{{ mediafile.mediafile.translation.caption }}</h3>
+  <p class="text">	 
+	 
+
+{% autoescape off %}
+	{{ mediafile.Text | removetags:"p"}}
+{% endautoescape %}	
+
+	
+      </p>
+      <span class="title"></span>
+   
+    </div>
+    {% endfor %}
+   
+  </div>
+</div>
+<style>
+span.title{
+   display: none;
+}
+p.text{
+ font-size: 18px;
+margin-bottom:0px;
+}
+h3.title{
+text-align: center;
+}
+</style>
