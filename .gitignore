@@ -3,16 +3,8 @@
 *.pyc
 local_settings.py
 *~
-<<<<<<< HEAD
-*.log
-*.pot
-*.pyc
-local_settings.py
-*~
 /cms/static/cms/img/*
 /cms/static/cms/files/*
 /bmit/static/*
 /bmit/media/*
 /cms/tiny_mce/*
-=======
->>>>>>> parent of 2658f02... version 0.92
