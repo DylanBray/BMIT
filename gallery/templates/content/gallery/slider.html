@@ -30,6 +30,7 @@
           dynamicArrows: false,
           autoSlide: true,
            autoHeight:false
+      
        
       })
 
@@ -48,31 +49,31 @@
 
 
 <div id="main-slider-wrapper">
-  <div class="liquid-slider"  id="slider-id">
- 
-   {% for mediafile in gallerymediafile %}
+  <div class="liquid-slider" id="slider-id">
 
-    
+   {% for mediafile in mediafile %}
+
     <div>
-    
+  
       <img class="gallery-cell-img" src="{{MEDIA_URL}}{{ mediafile.mediafile.file.name }}" alt="{{ mediafile.mediafile.translation.caption }}" width="{{mediafile.width}}" height="{{mediafile.height}}" >
  <h3 class="title">{{ mediafile.mediafile.translation.caption }}</h3>
   <p class="text">	 
 	 
 
 {% autoescape off %}
-	{{ mediafile.Text | removetags:"p"}}
+	{{ mediafile.text | removetags:"p"}}
 {% endautoescape %}	
 
 	
       </p>
       <span class="title"></span>
-   
+
     </div>
     {% endfor %}
    
   </div>
 </div>
+
 <style>
 span.title{
    display: none;
