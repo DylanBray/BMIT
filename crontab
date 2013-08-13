@@ -1,0 +1,19 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+HOME=/
+
+# For details see man 4 crontabs
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name command to be executed
+
+0,30 * * * * brayd wget http://calendars.office.microsoft.com/pubcalstorage/x2lrxl7z4630721/Dylan_Bray_Calendar.ics -O /webroot/bmit/bmit/static/calendar.ics 
+
+0,30 * * * * brayd wget http://calendars.office.microsoft.com/pubcalstorage/pb234x0z4669624/Graphics_Computer_%28Aurora-2%29_Calendar.ics -O /webroot/bmit/bmit/static/aurora.ics
