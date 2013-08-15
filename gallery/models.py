@@ -21,8 +21,7 @@ class Gallery(models.Model):
     
     
     def ordered_images(self):
-        return self.images.all()\
-                               .order_by('gallerymediafile__ordering')
+        return self.images.select_related().all().order_by('gallerymediafile__ordering')
     
     def count_images(self):
         if not getattr(self, '_image_count', None):
@@ -107,14 +106,16 @@ class GalleryContent(models.Model):
 
     def render(self, **kwargs):
         request = kwargs.get('request')
-        objects = GalleryMediaFile.objects.all()
+        objects =  self.gallery.ordered_images()
         remaining = []
-
+        galleries = Gallery.objects.all()
      
       
-        images = objects
+        images = GalleryMediaFile.objects.all()
 
         return render_to_string(self.spec.templates,
-                {'mediafile': images, 
+               {'mediafile': images,
+                'content': self,
+                'galleries': galleries,                 
                 'remaining': remaining, 'request': request },
             context_instance = RequestContext(request))

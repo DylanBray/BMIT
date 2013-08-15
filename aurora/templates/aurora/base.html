@@ -31,317 +31,88 @@
 	{% for time in weektime.zero %}
 	<td>
 	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
+	  {% if event.start <= time and event.end >= time %}
 	    {{ event.subject }}
 	    {% endif %}
 	    {% endfor %}
 	</td>
 	{% endfor %}
       </tr>
-      <tr>
-	<td>1:00</td> 
-	{% for time in weektime.one %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr> 
-      <tr>
-
-	<td>2:00</td> 
-	{% for time in weektime.two %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-      <tr>
-
-	<td>3:00</td> 
-	{% for time in weektime.three %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
+   
       <tr>
 	<td>4:00</td> 
 	{% for time in weektime.four %}
 	<td>
 	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
+	  {% if event.start <= time and event.end >= time %}
 	    {{ event.subject }}
 	    {% endif %}
 	    {% endfor %}
 	</td>
 	{% endfor %}
       </tr>
-       <tr>
-
-	<td>5:00</td> 
-	{% for time in weektime.five %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-      <tr>
-
-	<td>6:00</td> 
-	{% for time in weektime.six %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-       <tr>
-
-	<td>7:00</td> 
-	{% for time in weektime.seven %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
+      
       <tr>
 	<td>8:00</td> 
 	{% for time in weektime.eight%}
 	<td>
 	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
+	  {% if event.start <= time and event.end >= time %}
 	    {{ event.subject }}
 	    {% endif %}
 	    {% endfor %}
 	</td>
 	{% endfor %}
       </tr>
-       <tr>
-
-	<td>9:00</td> 
-	{% for time in weektime.nine %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-        <tr>
-
-	<td>10:00</td> 
-	{% for time in weektime.ten %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-	 <tr>
-
-	<td>11:00</td> 
-	{% for time in weektime.eleven %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
+      
       <tr>
 
 	<td>12:00</td> 
 	{% for time in weektime.twelve%}
 	<td>
 	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
+	  {% if event.start <= time and event.end >= time %}
 	    {{ event.subject }}
 	    {% endif %}
 	    {% endfor %}
 	</td>
 	{% endfor %}
       </tr>
-      <tr>
-
-	<td>13:00</td> 
-	{% for time in weektime.thirteen %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-       <tr>
-
-	<td>14:00</td> 
-	{% for time in weektime.fourteen %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-        <tr>
-
-	<td>15:00</td> 
-	{% for time in weektime.fifteen %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
+      
       <tr>
 
 	<td>16:00</td> 
 	{% for time in weektime.sixteen%}
 	<td>
 	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
+	  {% if event.start <= time and event.end >= time %}
 	    {{ event.subject }}
 	    {% endif %}
 	    {% endfor %}
 	</td>
 	{% endfor %}
       </tr>
-       <tr>
-
-	<td>17:00</td> 
-	{% for time in weektime.seventeen %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-        <tr>
-
-	<td>18:00</td> 
-	{% for time in weektime.eighteen %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-	 <tr>
-
-	<td>19:00</td> 
-	{% for time in weektime.nineteen %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
+      
       <tr>
 
 	<td>20:00</td> 
 	{% for time in weektime.twenty%}
 	<td>
 	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
+	  {% if event.start <= time and event.end >= time %}
 	    {{ event.subject }}
 	    {% endif %}
 	    {% endfor %}
 	</td>
 	{% endfor %}
       </tr>
-       <tr>
-
-	<td>21:00</td> 
-	{% for time in weektime.twentyone %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-        <tr>
-
-	<td>22:00</td> 
-	{% for time in weektime.twentytwo %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-	 <tr>
-
-	<td>23:00</td> 
-	{% for time in weektime.twentythree %}
-	<td>
-	  {% for event in events %}
-	  {% if event.start <= time and event.end > time %}
-	    {{ event.subject }}
-	    {% endif %}
-	    {% endfor %}
-	</td>
-	{% endfor %}
-      </tr>
-
+     
     </tbody>		  
   </table>
   
   <div id="calendar" class="beamline-schedule">
   </div>
 </div>  
-Please contact Adam Webb or George Belev for booking time.
 <script type="text/javascript">
 var d = new Date();
 var path = '{% if feincms_page.parent %}{% feincms_parentlink of feincms_page level=1 %}{% else %}/{% endif %}{{ feincms_page.slug }}';
@@ -435,4 +206,5 @@ drawCalendar(d);
 </script>
 <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}aurora/base.css">
 <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}aurora/calendar.css">
+{{ block.super }}
 {% endblock %}

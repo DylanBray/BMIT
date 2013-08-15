@@ -38,3 +38,21 @@
 # top-wrapper a{
     
 }
+
+#status-container{
+    border-top: 1px solid rgb(223, 223, 223);
+    width: 940px;
+    float: left;
+    padding: 10px;
+   
+}
+
+#status1, #status2{
+    width: 460px;
+    margin: 0 auto;
+    float: left;
+}
+
+#status1{
+    border-right:1px solid rgb(223, 223, 223);
+}

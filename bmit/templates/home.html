@@ -23,7 +23,22 @@
      {% endfor %}
      {% endblock %}
    </div>
-
+ <div id="status-container">
+     <div id="status1">
+       {% block status1 %}
+       {% for content in feincms_page.content.status1 %}
+       {% feincms_render_content content request %}
+       {% endfor %}
+       {% endblock %}
+     </div>
+     <div id="status2">
+       {% block status2 %}
+       {% for content in feincms_page.content.status2 %}
+       {% feincms_render_content content request %}
+       {% endfor %}
+       {% endblock %}
+     </div>
+   </div>
 
 {% endblock %}
 {% block content %}

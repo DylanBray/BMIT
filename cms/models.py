@@ -51,7 +51,9 @@ Page.register_templates({
             ('column1', _('Column 1')),
             ('column2', _('Column 2')),
             ('column3', _('Column 3')),
-            ('column4', _('Column 4'))
+            ('column4', _('Column 4')),
+            ('status1', _('Status 1')),
+            ('status2', _('Status 2')),
         ),
         })
 

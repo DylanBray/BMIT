@@ -1,7 +1,7 @@
 {% extends "admin/content/richtext/init_tinymce.html" %}
 
 
-{% block buttons1 %}{{ block.super }},|,fontselect,|,hr,|,insertdate,|,image, media{% endblock %}
+{% block buttons1 %}{{ block.super }},justifyleft,justifycenter,justifyright,justifyfull,|,fontselect,forecolor,|,hr,|,insertdate,|,image, media{% endblock %}
 {% block buttons2 %}{{ block.super }}removeformat,tablecontrols{% endblock %}
 {% block plugins %}{{ block.super }},insertdatetime,table, media,paste{% endblock %}
 

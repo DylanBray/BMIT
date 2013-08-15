@@ -25,7 +25,7 @@
       $('#slider-id').liquidSlider({
            dynamicTabsAlign:"left",
            mobileNavigation: false,
-           panelTitleSelector: "span.title",
+           panelTitleSelector: "span#title",
            dynamicTabsPosition: "bottom",
           dynamicArrows: false,
           autoSlide: true,
@@ -52,9 +52,9 @@
   <div class="liquid-slider" id="slider-id">
 
    {% for mediafile in mediafile %}
-
+   {% if content.gallery.id == mediafile.gallery.id %}
     <div>
-  
+ 
       <img class="gallery-cell-img" src="{{MEDIA_URL}}{{ mediafile.mediafile.file.name }}" alt="{{ mediafile.mediafile.translation.caption }}" width="{{mediafile.width}}" height="{{mediafile.height}}" >
  <h3 class="title">{{ mediafile.mediafile.translation.caption }}</h3>
   <p class="text">	 
@@ -66,9 +66,10 @@
 
 	
       </p>
-      <span class="title"></span>
+      <span id="title"></span>
 
     </div>
+    {% endif %}
     {% endfor %}
    
   </div>
