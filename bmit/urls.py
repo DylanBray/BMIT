@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 from feincms.module.page.sitemap import PageSitemap
-
+from django.conf.urls.defaults import *
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()

@@ -147,7 +147,7 @@ a:hover{
 }
 
 ul{
-    list-style-color: gray;
+    padding-left: 20px;
 }
 #navigation{
     float: right;

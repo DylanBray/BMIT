@@ -10,8 +10,8 @@ from django.views.decorators.cache import cache_page
 # returns the schedule table
 def buildTableBody(week):
    
-    bmEvents = icalParse("webroot/bmit/ical/static/ical/calendar.ics")
-    idEvents = icalParse("webroot/bmit/ical/static/ical/calendar.ics")
+    bmEvents = icalParse("/webroot/bmit/ical/static/ical/calendar.ics")
+    idEvents = icalParse("/webroot/bmit/ical/static/ical/calendar.ics")
     table = '<tbody>'
     
     for weekday in week:

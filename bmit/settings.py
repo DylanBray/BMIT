@@ -1,6 +1,6 @@
 # Django settings for bmit project.
 
-DEBUG = True
+DEBUG  = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -29,7 +29,7 @@ CACHES = {
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', '10.45.0.64']
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
