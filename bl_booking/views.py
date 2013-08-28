@@ -3,7 +3,7 @@ from django.shortcuts import render
 from datetime import date, timedelta, datetime, time
 from ical.utils import icalParse, tdColour, getWeek
 from django.views.decorators.cache import cache_page
-    
+from django.conf import settings
 
 
  
