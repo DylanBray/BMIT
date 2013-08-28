@@ -3,6 +3,5 @@
 *.pyc
 local_settings.py
 *~
-/cms/static/cms/img/*
 /cms/static/cms/files/*
 /cms/tiny_mce/*
