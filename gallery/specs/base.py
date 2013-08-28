@@ -5,7 +5,7 @@ class BaseSpec(object):
             setattr(self, arg, kwargs[arg])
 
     template_path = 'content/gallery/'
-    default_template = '%sclassiclm.html' % template_path
+    default_template = '%sslider.html' % template_path
     paginated = False
 
     @property
