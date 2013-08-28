@@ -6,20 +6,11 @@ from django.utils.translation import ugettext_lazy as _
 from .base import BaseSpec
 
 class ClassicLightbox(BaseSpec):
-    verbose_name = _('Classic Gallery with Lightbox (paginated).')
-    paginated = True
-    paginate_by = 12
-    orphans = 3
-    columns = 3
-    template_name = 'p.classiclm.html'
-    name = 'p.classiclm'
+    verbose_name = _('Liquid Slider')
+    paginated = False
 
-    media = {
-        'css': {'all': ('lib/fancybox/jquery.fancybox-1.3.4.css',
-                        'content/gallery/classic.css')},
-        'js': ('lib/fancybox/jquery.fancybox-1.3.4.pack.js',
-               'content/gallery/gallery.js'),
-    }
+    template_name = 'slider.html'
+    name = 'slider'
 
 DEFAULT_SPECS = (ClassicLightbox(),)
 
