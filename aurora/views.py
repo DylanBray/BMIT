@@ -4,7 +4,6 @@ from datetime import date, timedelta, datetime, time
 from ical.utils import icalParse, tdColour, getWeek
 from django.views.decorators.cache import cache_page
 
-calendarFile = '/webroot/bmit/bmit/static/aurora.ics'
 
 def buildTimes(week):
     zero = []
@@ -92,7 +91,7 @@ def index(request):
     currentDate =  getWeek(date.today())
     previousWeek = currentDate[0] - timedelta(days=7)
     nextWeek = currentDate[0] + timedelta(days=7)
-    context = {'weektime': buildTimes(currentDate),
+    context = {'weektime': buildTimes(AURORA_SCHEDULE_LOCATION),
                'events': icalParse(calendarFile),
                'previousWeek': previousWeek,
                'nextWeek': nextWeek}
@@ -105,7 +104,7 @@ def week(request, year, month, day):
     previousWeek = currentDate[0] - timedelta(days=7)
     nextWeek = currentDate[0] + timedelta(days=7)
     context = {'weektime': buildTimes(currentDate),
-               'events': icalParse(calendarFile),
+               'events': icalParse(AURORA_SCHEDULE_lOCATION),
                'previousWeek': previousWeek,
                'nextWeek': nextWeek}
     return 'aurora/base.html', context

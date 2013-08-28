@@ -14,6 +14,6 @@ HOME=/
 # |  |  |  |  |
 # *  *  *  *  * user-name command to be executed
 
-0,30 * * * * brayd wget http://calendars.office.microsoft.com/pubcalstorage/x2lrxl7z4630721/Dylan_Bray_Calendar.ics -O /webroot/bmit/bmit/static/calendar.ics 
+0,30 * * * * brayd wget http://calendars.office.microsoft.com/pubcalstorage/x2lrxl7z4630721/Dylan_Bray_Calendar.ics -O /webroot/bmit/dav/beamline.ics 
 
-0,30 * * * * brayd wget http://calendars.office.microsoft.com/pubcalstorage/pb234x0z4669624/Graphics_Computer_%28Aurora-2%29_Calendar.ics -O /webroot/bmit/bmit/static/aurora.ics
+0,30 * * * * brayd wget http://calendars.office.microsoft.com/pubcalstorage/pb234x0z4669624/Graphics_Computer_%28Aurora-2%29_Calendar.ics -O /webroot/bmit/dav/auarora.ics

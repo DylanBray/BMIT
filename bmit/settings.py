@@ -199,4 +199,9 @@ TINYMCE_DEFAULT_CONFIG = {
     'width':300,
 }
 
+BM_SCHEDULE_LOCATION = '/webroot/bmit/dav/bm.ics'
+
+ID_SCHEDULE_LOCATION = '/webroot/bmit/dav/id.ics'
+
+AURORA_SCHEDULE_LOCATION = '/webroot/bmit/dav/aurora.ics'
 
