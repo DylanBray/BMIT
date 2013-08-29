@@ -61,7 +61,7 @@ def buildTableBody(week):
     table += '</tbody>'
     return table
 
-#@cache_page(60 * 15)   
+@cache_page(60 * 15)   
 def index(request):
     currentDate = getWeek(date.today())
     previousWeek = currentDate[0] - timedelta(days=7)
@@ -71,7 +71,7 @@ def index(request):
                'nextWeek': nextWeek,
                'week': currentDate}
     return 'bl_booking/base.html', context
-#@cache_page(60 * 15)
+@cache_page(60 * 15)
 def week(request, year, month, day):
     currentDate = getWeek(date(int(year), int(month), int(day)))
     previousWeek = currentDate[0] - timedelta(days=7)

@@ -87,7 +87,7 @@ def buildTimes(week):
             'twentythree': twentythree,
             }
 
-#@cache_page(60 * 15)   
+@cache_page(60 * 15)   
 def index(request):
     currentDate =  getWeek(date.today())
     previousWeek = currentDate[0] - timedelta(days=7)
@@ -96,10 +96,9 @@ def index(request):
                'events': icalParse(calendarFile),
                'previousWeek': previousWeek,
                'nextWeek': nextWeek}
-    #return render(request, 'aurora/base.html', context)
     return 'aurora/base.html',context
 
-#cache_page(60 * 15)
+@cache_page(60 * 15)
 def week(request, year, month, day):
     currentDate = getWeek(date(int(year), int(month), int(day)))
     previousWeek = currentDate[0] - timedelta(days=7)
